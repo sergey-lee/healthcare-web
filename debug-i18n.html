@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Debug i18n</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a202c; color: #e2e8f0; }
+        .section { background: #2d3748; padding: 20px; margin: 20px 0; border-radius: 8px; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; font-size: 16px; }
+        .active { background: #4299e1; color: white; }
+        pre { background: #000; padding: 15px; overflow-x: auto; font-size: 12px; }
+        .test-box { background: #4a5568; padding: 15px; margin: 10px 0; border-left: 4px solid #48bb78; }
+        h3 { color: #4299e1; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🔍 i18n Debug Tool</h1>
+
+    <div class="section">
+        <h2>Language Switcher</h2>
+        <button onclick="switchLang('ko')" data-lang="ko" class="active">🇰🇷 Korean</button>
+        <button onclick="switchLang('en')" data-lang="en">🇬🇧 English</button>
+        <button onclick="switchLang('zh')" data-lang="zh">🇹🇼 Chinese</button>
+    </div>
+
+    <div class="section">
+        <h2>Test Texts (same as in index.html)</h2>
+
+        <div class="test-box">
+            <strong>Footer text:</strong><br>
+            <div class="footer-info-text">
+                <div class="list">
+                    <p id="test1">상호</p><p>DiagnoX</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-box">
+            <strong>History text:</strong><br>
+            <h3 id="test2">건강과 과학의 조화를 통해 만들어온 혁신의 여정</h3>
+        </div>
+
+        <div class="test-box">
+            <strong>Research text:</strong><br>
+            <p id="test3">암 연구</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Debug Info</h2>
+        <pre id="debug-log">Waiting for scripts to load...</pre>
+    </div>
+
+    <div class="section">
+        <h2>Direct Translation Test</h2>
+        <button onclick="testDirectTranslation()">Test Translation API</button>
+        <pre id="translation-test"></pre>
+    </div>
+
+    <!-- Load i18n scripts -->
+    <script src="wp-content/i18n-full.js"></script>
+    <script src="wp-content/i18n-replacer-v2.js"></script>
+
+    <script>
+        const debugLog = document.getElementById('debug-log');
+        const translationTest = document.getElementById('translation-test');
+        const logs = [];
+
+        function addLog(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logs.push(`[${timestamp}] ${message}`);
+            debugLog.textContent = logs.join('\n');
+        }
+
+        // Intercept console.log
+        const originalLog = console.log;
+        const originalError = console.error;
+
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            addLog('LOG: ' + args.join(' '));
+        };
+
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            addLog('ERROR: ' + args.join(' '));
+        };
+
+        function switchLang(lang) {
+            addLog(`\n=== Switching to ${lang} ===`);
+
+            // Update button states
+            document.querySelectorAll('button[data-lang]').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`button[data-lang="${lang}"]`).classList.add('active');
+
+            // Check if changeLanguage exists
+            if (typeof changeLanguage === 'function') {
+                addLog(`Calling changeLanguage('${lang}')...`);
+                const result = changeLanguage(lang);
+                addLog(`Result: ${result}`);
+
+                // Check what happened to test texts
+                setTimeout(() => {
+                    addLog(`\nText check after replacement:`);
+                    addLog(`  test1: "${document.getElementById('test1').textContent}"`);
+                    addLog(`  test2: "${document.getElementById('test2').textContent.substring(0, 30)}..."`);
+                    addLog(`  test3: "${document.getElementById('test3').textContent}"`);
+                }, 100);
+            } else {
+                addLog('ERROR: changeLanguage is not defined!');
+            }
+        }
+
+        function testDirectTranslation() {
+            const output = [];
+
+            output.push('=== Direct Translation API Test ===\n');
+
+            // Check i18nFull
+            if (typeof i18nFull !== 'undefined') {
+                output.push('✅ i18nFull is loaded');
+                output.push(`Current language: ${i18nFull.currentLanguage}\n`);
+
+                // Test specific translations
+                const tests = [
+                    'footer.text7',
+                    'history.text1',
+                    'research.text1'
+                ];
+
+                tests.forEach(key => {
+                    output.push(`\nKey: ${key}`);
+                    output.push(`  KO: ${i18nFull.translations.ko ? getValue(i18nFull.translations.ko, key) : 'N/A'}`);
+                    output.push(`  EN: ${i18nFull.translations.en ? getValue(i18nFull.translations.en, key) : 'N/A'}`);
+                    output.push(`  ZH: ${i18nFull.translations.zh ? getValue(i18nFull.translations.zh, key) : 'N/A'}`);
+                    output.push(`  t(): ${i18nFull.t ? i18nFull.t(key) : 'N/A'}`);
+                });
+
+                // Check textToKeyMap
+                if (typeof i18nReplacer !== 'undefined' && i18nReplacer.textToKeyMap) {
+                    output.push('\n=== textToKeyMap ===');
+                    output.push(`  '상호' → '${i18nReplacer.textToKeyMap['상호']}'`);
+                    output.push(`  '암 연구' → '${i18nReplacer.textToKeyMap['암 연구']}'`);
+                    output.push(`  Total mappings: ${Object.keys(i18nReplacer.textToKeyMap).length}`);
+                }
+            } else {
+                output.push('❌ i18nFull is NOT loaded');
+            }
+
+            translationTest.textContent = output.join('\n');
+        }
+
+        function getValue(obj, path) {
+            const keys = path.split('.');
+            let value = obj;
+            for (const key of keys) {
+                value = value?.[key];
+            }
+            return value || 'undefined';
+        }
+
+        // Initialize
+        window.addEventListener('load', () => {
+            addLog('Page loaded');
+            addLog(`i18nFull: ${typeof i18nFull !== 'undefined' ? '✅ loaded' : '❌ not loaded'}`);
+            addLog(`changeLanguage: ${typeof changeLanguage === 'function' ? '✅ defined' : '❌ not defined'}`);
+            addLog(`i18nReplacer: ${typeof i18nReplacer !== 'undefined' ? '✅ loaded' : '❌ not loaded'}`);
+
+            if (typeof i18nFull !== 'undefined') {
+                addLog(`Current language: ${i18nFull.currentLanguage}`);
+            }
+
+            testDirectTranslation();
+        });
+    </script>
+</body>
+</html>

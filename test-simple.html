@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple i18n Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .lang-buttons {
+            margin-bottom: 30px;
+            display: flex;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 5px;
+        }
+        button.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .test-text {
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+            margin: 10px 0;
+        }
+        .debug {
+            margin-top: 30px;
+            padding: 20px;
+            background: #2d3748;
+            color: #a0aec0;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Простой тест i18n системы</h1>
+
+        <div class="lang-buttons">
+            <button onclick="testChangeLanguage('ko')" data-lang="ko" class="active">🇰🇷 한국어</button>
+            <button onclick="testChangeLanguage('en')" data-lang="en">🇬🇧 English</button>
+            <button onclick="testChangeLanguage('zh')" data-lang="zh">🇹🇼 繁體中文</button>
+        </div>
+
+        <h2>Тестовые тексты:</h2>
+
+        <div class="test-text">
+            <strong>History Text 1:</strong><br>
+            <span id="test1">건강과 과학의 조화를 통해 만들어온 혁신의 여정</span>
+        </div>
+
+        <div class="test-text">
+            <strong>Research Text 1:</strong><br>
+            <span id="test2">암 연구</span>
+        </div>
+
+        <div class="test-text">
+            <strong>Footer Text 7:</strong><br>
+            <span id="test3">상호</span>
+        </div>
+
+        <div class="debug">
+            <div id="debug-output">Ожидание загрузки...</div>
+        </div>
+    </div>
+
+    <!-- Подключаем i18n скрипты -->
+    <script src="wp-content/i18n-full.js"></script>
+    <script src="wp-content/i18n-replacer-v2.js"></script>
+
+    <script>
+        function updateDebug() {
+            const debug = document.getElementById('debug-output');
+            const output = [];
+
+            output.push(`✓ i18nFull loaded: ${typeof i18nFull !== 'undefined'}`);
+            output.push(`✓ changeLanguage loaded: ${typeof changeLanguage === 'function'}`);
+
+            if (typeof i18nFull !== 'undefined') {
+                output.push(`Current language: ${i18nFull.currentLanguage}`);
+                output.push(`\nTest translations:`);
+                output.push(`  history.text1: ${i18nFull.t('history.text1')}`);
+                output.push(`  research.text1: ${i18nFull.t('research.text1')}`);
+                output.push(`  footer.text7: ${i18nFull.t('footer.text7')}`);
+            }
+
+            debug.innerHTML = output.join('\n');
+        }
+
+        function testChangeLanguage(lang) {
+            console.log(`Switching to: ${lang}`);
+
+            if (typeof changeLanguage === 'function') {
+                changeLanguage(lang);
+
+                // Обновить активную кнопку
+                document.querySelectorAll('.lang-buttons button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
+
+                // Обновить debug
+                updateDebug();
+            } else {
+                console.error('changeLanguage is not defined!');
+            }
+        }
+
+        // Инициализация
+        window.addEventListener('load', () => {
+            console.log('Page loaded');
+            updateDebug();
+
+            // Принудительно заменить тексты
+            setTimeout(() => {
+                if (typeof i18nReplacer !== 'undefined') {
+                    console.log('Calling replaceAllTexts...');
+                    i18nReplacer.replaceAllTexts();
+                    updateDebug();
+                }
+            }, 500);
+        });
+    </script>
+</body>
+</html>

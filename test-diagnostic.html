@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>i18n Diagnostic Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a202c; color: #e2e8f0; }
+        .test { padding: 10px; margin: 10px 0; background: #2d3748; border-left: 4px solid #4299e1; }
+        .success { border-color: #48bb78; }
+        .error { border-color: #f56565; }
+        button { padding: 10px 20px; margin: 5px; font-size: 16px; cursor: pointer; }
+        .active { background: #4299e1; color: white; }
+        pre { background: #000; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔧 i18n System Diagnostic</h1>
+
+    <div class="test" id="test-i18nfull"></div>
+    <div class="test" id="test-changeLanguage"></div>
+    <div class="test" id="test-replacer"></div>
+    <div class="test" id="test-translations"></div>
+
+    <h2>Test Buttons:</h2>
+    <button onclick="testSwitch('ko')" data-lang="ko" class="active">🇰🇷 Korean</button>
+    <button onclick="testSwitch('en')" data-lang="en">🇬🇧 English</button>
+    <button onclick="testSwitch('zh')" data-lang="zh">🇹🇼 Chinese</button>
+
+    <h2>Test Texts:</h2>
+    <div style="background: #2d3748; padding: 20px; margin: 10px 0;">
+        <p>상호</p>
+        <p>암 연구</p>
+        <p>건강과 과학의 조화를 통해 만들어온 혁신의 여정</p>
+    </div>
+
+    <h2>Console Output:</h2>
+    <pre id="console-output"></pre>
+
+    <script src="wp-content/i18n-full.js"></script>
+    <script src="wp-content/i18n-replacer-v2.js"></script>
+
+    <script>
+        const consoleDiv = document.getElementById('console-output');
+        const originalLog = console.log;
+        const logs = [];
+
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            logs.push(args.join(' '));
+            consoleDiv.textContent = logs.join('\n');
+        };
+
+        function runTests() {
+            // Test 1: i18nFull
+            const test1 = document.getElementById('test-i18nfull');
+            if (typeof i18nFull !== 'undefined') {
+                test1.className = 'test success';
+                test1.innerHTML = `✅ i18nFull loaded<br>Current language: ${i18nFull.currentLanguage}`;
+            } else {
+                test1.className = 'test error';
+                test1.innerHTML = '❌ i18nFull NOT loaded';
+            }
+
+            // Test 2: changeLanguage
+            const test2 = document.getElementById('test-changeLanguage');
+            if (typeof changeLanguage === 'function') {
+                test2.className = 'test success';
+                test2.innerHTML = '✅ changeLanguage function defined';
+            } else {
+                test2.className = 'test error';
+                test2.innerHTML = '❌ changeLanguage NOT defined';
+            }
+
+            // Test 3: i18nReplacer
+            const test3 = document.getElementById('test-replacer');
+            if (typeof i18nReplacer !== 'undefined') {
+                test3.className = 'test success';
+                test3.innerHTML = `✅ i18nReplacer loaded<br>Supported languages: ${i18nReplacer.getSupportedLanguages().join(', ')}`;
+            } else {
+                test3.className = 'test error';
+                test3.innerHTML = '❌ i18nReplacer NOT loaded';
+            }
+
+            // Test 4: Translations
+            const test4 = document.getElementById('test-translations');
+            if (typeof i18nFull !== 'undefined' && i18nFull.translations) {
+                const hasKo = i18nFull.translations.ko ? '✅' : '❌';
+                const hasEn = i18nFull.translations.en ? '✅' : '❌';
+                const hasZh = i18nFull.translations.zh ? '✅' : '❌';
+                test4.className = 'test success';
+                test4.innerHTML = `Translations:<br>${hasKo} Korean<br>${hasEn} English<br>${hasZh} Chinese<br><br>Test: footer.text7 = "${i18nFull.t('footer.text7')}"`;
+            } else {
+                test4.className = 'test error';
+                test4.innerHTML = '❌ Translations NOT available';
+            }
+        }
+
+        function testSwitch(lang) {
+            console.log(`\n=== Testing switch to ${lang} ===`);
+
+            if (typeof changeLanguage === 'function') {
+                const result = changeLanguage(lang);
+                console.log(`Result: ${result}`);
+                console.log(`Current language after switch: ${i18nFull.currentLanguage}`);
+                console.log(`Test translation: ${i18nFull.t('footer.text7')}`);
+
+                // Update active button
+                document.querySelectorAll('button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                document.querySelector(`[data-lang="${lang}"]`)?.classList.add('active');
+
+                runTests();
+            } else {
+                console.log('ERROR: changeLanguage is not a function!');
+            }
+        }
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                console.log('Page loaded, running tests...');
+                runTests();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

@@ -164,7 +164,93 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fmwpdemo51703.mycafe24.com%252F" />
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fmwpdemo51703.mycafe24.com%252F&amp;format=xml" />
 <script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<style type="text/css" data-type="vc_shortcodes-default-css">.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1733394092301{margin-bottom: 20px !important;}.vc_custom_1733394445274{margin-bottom: 20px !important;}.vc_custom_1733393584926{margin-bottom: 20px !important;}.vc_custom_1733460010949{margin-bottom: 20px !important;}.vc_custom_1733460031751{margin-bottom: 20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head><body class="home wp-singular page-template-default page page-id-8681 wp-theme-salient wp-child-theme-salient-child material wpb-js-composer js-comp-ver-8.4.1 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="centered-menu" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="1" data-fancy-form-rcs="1" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="slightly_rounded_shadow" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="true" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="true" data-slide-out-widget-area="true" data-slide-out-widget-area-style="simple" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="true" data-responsive="1" data-ext-responsive="true" data-ext-padding="60" data-header-resize="0" data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" >
+<style type="text/css" data-type="vc_shortcodes-default-css">.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1733394092301{margin-bottom: 20px !important;}.vc_custom_1733394445274{margin-bottom: 20px !important;}.vc_custom_1733393584926{margin-bottom: 20px !important;}.vc_custom_1733460010949{margin-bottom: 20px !important;}.vc_custom_1733460031751{margin-bottom: 20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+<!-- Language Switcher Styles -->
+<style type="text/css">
+/* Переключатель языков в header */
+#language-switcher-btn {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#language-switcher-btn .language-switcher-header {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	padding: 0;
+}
+
+#language-switcher-btn .lang-btn {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 8px 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border-radius: 4px;
+	font-size: 20px;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 40px;
+	height: 40px;
+}
+
+#language-switcher-btn .lang-btn:hover {
+	background: rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.5);
+	transform: translateY(-2px);
+}
+
+#language-switcher-btn .lang-btn.active {
+	background: rgba(255, 255, 255, 0.2);
+	border-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#language-switcher-btn .lang-btn .flag {
+	display: block;
+	font-size: 20px;
+	line-height: 1;
+}
+
+/* Для темного header */
+body[data-header-color="dark"] #language-switcher-btn .lang-btn {
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+body[data-header-color="dark"] #language-switcher-btn .lang-btn:hover {
+	background: rgba(0, 0, 0, 0.05);
+	border-color: rgba(0, 0, 0, 0.3);
+}
+
+body[data-header-color="dark"] #language-switcher-btn .lang-btn.active {
+	background: rgba(0, 0, 0, 0.1);
+	border-color: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 1000px) {
+	#language-switcher-btn {
+		display: none;
+	}
+}
+
+/* Анимация при смене языка */
+@keyframes languageChange {
+	0% { opacity: 1; }
+	50% { opacity: 0.8; }
+	100% { opacity: 1; }
+}
+
+body.changing-language {
+	animation: languageChange 0.4s ease;
+}
+</style>
+</head><body class="home wp-singular page-template-default page page-id-8681 wp-theme-salient wp-child-theme-salient-child material wpb-js-composer js-comp-ver-8.4.1 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="centered-menu" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="1" data-fancy-form-rcs="1" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="slightly_rounded_shadow" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="true" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="true" data-slide-out-widget-area="true" data-slide-out-widget-area-style="simple" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="true" data-responsive="1" data-ext-responsive="true" data-ext-padding="60" data-header-resize="0" data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" >
 	
 	<script type="text/javascript">
 	 (function(window, document) {
@@ -270,7 +356,19 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 							</ul>
 													<ul class="buttons sf-menu" data-user-set-ocm="off">
 
-								<li id="search-btn"><div><a href="index.html#searchbox"><span class="icon-salient-search" aria-hidden="true"></span><span class="screen-reader-text">search</span></a></div> </li>
+								<li id="language-switcher-btn">
+								<div class="language-switcher-header">
+									<!-- <button onclick="changeLanguage('ko')" data-lang="ko" class="lang-btn active" title="한국어">
+										<span class="flag">🇰🇷</span>
+									</button> -->
+									<button onclick="changeLanguage('en')" data-lang="en" class="lang-btn" title="English">
+										<span class="flag">🇬🇧</span>
+									</button>
+									<button onclick="changeLanguage('zh')" data-lang="zh" class="lang-btn" title="繁體中文">
+										<span class="flag">🇹🇼</span>
+									</button>
+								</div>
+							</li>
 							</ul>
 						
 					</nav>
@@ -808,6 +906,36 @@ var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","clos
 <script type="text/javascript" src="wp-content/plugins/salient-core/js/third-party/touchswipe.min.js%3Fver=1.0" id="touchswipe-js"></script>
 <script type="text/javascript" src="wp-content/themes/salient/js/build/third-party/select2.min.js%3Fver=4.0.1" id="select2-js"></script>
 <script type="text/javascript" src="wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js%3Fver=8.4.1" id="wpb_composer_front_js-js"></script>
+
+<!-- i18n System -->
+<script src="wp-content/i18n-full.js"></script>
+<script src="wp-content/i18n-replacer-v2.js"></script>
+
+<script>
+// Добавляем анимацию при смене языка
+(function() {
+	// Ждем, пока changeLanguage будет определен
+	const checkAndWrap = () => {
+		if (typeof window.changeLanguage === 'function') {
+			const originalChangeLanguage = window.changeLanguage;
+			window.changeLanguage = function(lang) {
+				document.body.classList.add('changing-language');
+				const result = originalChangeLanguage(lang);
+				setTimeout(() => {
+					document.body.classList.remove('changing-language');
+				}, 400);
+				return result;
+			};
+			console.log('✅ Animation wrapper applied');
+		} else {
+			// Повторяем через 100ms
+			setTimeout(checkAndWrap, 100);
+		}
+	};
+	checkAndWrap();
+})();
+</script>
+
 <script></script></body>
 </html>
 <!-- Dynamic page generated in 0.852 seconds. -->
