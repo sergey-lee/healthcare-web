@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Простой тест i18n</title>
+</head>
+<body>
+    <h1>Тест загрузки JSON</h1>
+
+    <p>Текст ДО загрузки: <strong id="before">???</strong></p>
+    <p>Текст ПОСЛЕ загрузки: <strong id="after">???</strong></p>
+
+    <button onclick="loadTest()">Загрузить JSON</button>
+
+    <div id="result" style="margin-top: 20px; padding: 15px; background: #f0f0f0;"></div>
+
+    <script>
+        async function loadTest() {
+            const resultDiv = document.getElementById('result');
+            const beforeSpan = document.getElementById('before');
+            const afterSpan = document.getElementById('after');
+
+            beforeSpan.textContent = 'Загружаю...';
+
+            try {
+                const response = await fetch('/i18n_categorized.json');
+                const data = await response.json();
+
+                // Показываем структуру
+                const categories = Object.keys(data.strings || {});
+                const aboutText = data.strings?.navigation?.about || 'НЕ НАЙДЕНО';
+
+                afterSpan.textContent = aboutText;
+
+                resultDiv.innerHTML = `
+                    <h3 style="color: green;">✅ Успешно загружено!</h3>
+                    <p><strong>Категорий:</strong> ${categories.length}</p>
+                    <p><strong>Список категорий:</strong> ${categories.join(', ')}</p>
+                    <p><strong>Значение "about":</strong> "${aboutText}"</p>
+                    <hr>
+                    <p style="font-size: 12px;">Полный путь: data.strings.navigation.about</p>
+                `;
+            } catch (error) {
+                afterSpan.textContent = 'ОШИБКА';
+                resultDiv.innerHTML = `
+                    <h3 style="color: red;">❌ Ошибка загрузки</h3>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+
+        // Автозагрузка при открытии страницы
+        window.addEventListener('load', loadTest);
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Language Switcher Test</title>
+    <link rel="stylesheet" href="/lang-switcher.css">
+</head>
+<body style="padding: 50px; background: #f5f5f5;">
+    <h1>Language Switcher Test</h1>
+    
+    <div style="background: #333; padding: 20px; display: inline-block;">
+        <ul class="buttons sf-menu" data-user-set-ocm="off" style="list-style: none; margin: 0; padding: 0;">
+            <li id="lang-switcher">
+                <div class="lang-switcher-wrap">
+                    <a href="#" class="lang-current">
+                        <span class="lang-flag">🇺🇸</span>
+                        <span class="lang-name">English</span>
+                    </a>
+                    <ul class="lang-dropdown">
+                        <li><a href="#" data-lang="en"><span class="lang-flag">🇺🇸</span> English</a></li>
+                        <li><a href="#" data-lang="zh-TW"><span class="lang-flag">🇹🇼</span> 繁體中文</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="/lang-switcher.js"></script>
+    
+    <script>
+        // Дополнительный лог для проверки
+        setTimeout(() => {
+            console.log('Lang switcher loaded:', window.langSwitcher);
+            const switcher = document.getElementById('lang-switcher');
+            console.log('Switcher element:', switcher);
+            const dropdown = switcher?.querySelector('.lang-dropdown');
+            console.log('Dropdown element:', dropdown);
+        }, 1000);
+    </script>
+</body>
+</html>

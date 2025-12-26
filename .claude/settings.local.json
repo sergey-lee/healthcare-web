@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(pip3 install:*)",
+      "Bash(xattr:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Bash(open http://localhost:8000/simple-test.html)",
+      "Bash(open http://localhost:8000/index.html)",
+      "Bash(open http://localhost:8000/test-translation.html)",
+      "Bash(./add_i18n_to_all.sh:*)",
+      "Bash(./fix_duplicates.sh)",
+      "Bash(open:*)",
+      "Bash(find:*)",
+      "Bash(lsof:*)",
+      "Bash(./replace_search_with_lang_switcher.sh:*)"
+    ]
+  }
+}

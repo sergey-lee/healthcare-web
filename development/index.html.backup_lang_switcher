@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko-KR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport"><title data-i18n="content_en.development_mwpdemo44061">Development – mwpdemo44061</title>
+<meta content="max-image-preview:large" name="robots"/>
+<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+<link href="https://fonts.googleapis.com/" rel="dns-prefetch"/>
+<link href="../feed/index.html" rel="alternate" title="mwpdemo44061 » 피드" type="application/rss+xml"/>
+<link href="../comments/feed/index.html" rel="alternate" title="mwpdemo44061 » 댓글 피드" type="application/rss+xml"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mwpdemo51703.mycafe24.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link href="../wp-includes/css/dist/block-library/style.min.css%3Fver=6.8.3.css" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 1300px;--wp--style--global--wide-size: 1300px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link href="../wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=6.1.3.css" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/font-awesome-legacy.min.css%3Fver=4.7.1.css" id="font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/grid-system.css%3Fver=17.3.0.css" id="salient-grid-system-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/style.css%3Fver=17.3.0.css" id="main-styles-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/header/header-layout-centered-menu.css%3Fver=17.3.0.css" id="nectar-header-layout-centered-menu-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/elements/element-fancy-box.css%3Fver=17.3.0.css" id="nectar-element-fancy-box-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/elements/element-icon-list.css%3Fver=17.3.0.css" id="nectar-element-icon-list-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/third-party/cf7.css%3Fver=17.3.0.css" id="nectar-cf7-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&amp;subset=latin%2Clatin-ext" id="nectar_default_font_open_sans-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/responsive.css%3Fver=17.3.0.css" id="responsive-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/plugins/flickity.css%3Fver=17.3.0.css" id="nectar-flickity-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/plugins/select2.css%3Fver=4.0.1.css" id="select2-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/skin-material.css%3Fver=17.3.0.css" id="skin-material-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/uploads/salient/menu-dynamic.css%3Fver=8151.css" id="salient-wp-menu-dynamic-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/build/plugins/js_composer.css%3Fver=17.3.0.css" id="js_composer_front-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="../wp-content/themes/salient/css/salient-dynamic-styles.css%3Fver=54473.css" id="dynamic-css-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="dynamic-css-inline-css" type="text/css">
+#header-space{background-color:#ffffff}@media only screen and (min-width:1000px){body #ajax-content-wrap.no-scroll{min-height:calc(100vh - 86px);height:calc(100vh - 86px)!important;}}@media only screen and (min-width:1000px){#page-header-wrap.fullscreen-header,#page-header-wrap.fullscreen-header #page-header-bg,html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,#nectar_fullscreen_rows:not(.afterLoaded) > div{height:calc(100vh - 85px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 85px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header{top:86px;}.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 84px)!important;}.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 84px - 32px)!important;}}.admin-bar[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level,.admin-bar[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 32px);}body[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level,body[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:100vh;}@media only screen and (max-width:999px){.using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 100px);}.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 100px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,#nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 47px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 47px);}body[data-transparent-header="false"] #ajax-content-wrap.no-scroll{min-height:calc(100vh - 47px);height:calc(100vh - 47px);}}#nectar_fullscreen_rows{background-color:transparent;}.wpb_row[class*="clip-path-start-desktop"] .nectar-shape-divider-wrap{z-index:0;}.wpb_row[class*="clip-path-start-desktop"] .nectar-shape-divider-wrap .nectar-shape-divider{bottom:0;}@media only screen,print{.clip-path-start-desktop-0-20pct-0-20pct-0.clip-path-entire-row{clip-path:inset(0 20% 0 20% round 0);}.clip-path-start-desktop-0-20pct-0-20pct-0.clip-path-entire-row{transition:clip-path 2s cubic-bezier(0.6,0.06,0.18,1)!important;}.top-level.clip-path-start-desktop-0-20pct-0-20pct-0.clip-path-entire-row{transition:clip-path 1.3s cubic-bezier(0.25,0.1,0.18,1)!important;}.clip-path-end-desktop-0-0pct-0-0pct-0.animated-in.clip-path-entire-row{clip-path:inset(0 0 0 0 round 0);}.clip-path-end-desktop-0-0pct-0-0pct-0.animated-in.clip-path-entire-row{transition:clip-path 2s cubic-bezier(0.6,0.06,0.18,1)!important;}.top-level.clip-path-end-desktop-0-0pct-0-0pct-0.animated-in.clip-path-entire-row{transition:clip-path 1.3s cubic-bezier(0.25,0.1,0.18,1)!important;}}#ajax-content-wrap .vc_row.bottom_margin_5pct{margin-bottom:5%;}body .container-wrap .wpb_row[data-column-margin="30px"]:not(.full-width-section):not(.full-width-content){margin-bottom:30px;}body .container-wrap .vc_row-fluid[data-column-margin="30px"] > .span_12,html body .vc_row-fluid[data-column-margin="30px"] > .span_12,body .container-wrap .vc_row-fluid[data-column-margin="30px"] .full-page-inner > .container > .span_12,body .container-wrap .vc_row-fluid[data-column-margin="30px"] .full-page-inner > .span_12{margin-left:-15px;margin-right:-15px;}body .container-wrap .vc_row-fluid[data-column-margin="30px"] .wpb_column:not(.child_column),body .container-wrap .inner_row[data-column-margin="30px"] .child_column,html body .vc_row-fluid[data-column-margin="30px"] .wpb_column:not(.child_column),html body .inner_row[data-column-margin="30px"] .child_column{padding-left:15px;padding-right:15px;}.container-wrap .vc_row-fluid[data-column-margin="30px"].full-width-content > .span_12,html body .vc_row-fluid[data-column-margin="30px"].full-width-content > .span_12,.container-wrap .vc_row-fluid[data-column-margin="30px"].full-width-content .full-page-inner > .span_12{margin-left:0;margin-right:0;padding-left:15px;padding-right:15px;}.single-portfolio #full_width_portfolio .vc_row-fluid[data-column-margin="30px"].full-width-content > .span_12{padding-right:15px;}@media only screen and (max-width:999px) and (min-width:691px){.vc_row-fluid[data-column-margin="30px"] > .span_12 > .one-fourths:not([class*="vc_col-xs-"]),.vc_row-fluid .vc_row-fluid.inner_row[data-column-margin="30px"] > .span_12 > .one-fourths:not([class*="vc_col-xs-"]){margin-bottom:30px;}}@media only screen and (max-width:999px){.vc_row-fluid[data-column-margin="30px"] .wpb_column:not([class*="vc_col-xs-"]):not(.child_column):not(:last-child),.inner_row[data-column-margin="30px"] .child_column:not([class*="vc_col-xs-"]):not(:last-child){margin-bottom:30px;}}.nectar-fancy-box[data-style="color_box_hover"] .box-inner-wrap{transform:translateZ(0);}.nectar-fancy-box[data-style="color_box_hover"] .inner-wrap > i{margin-bottom:25px;}.nectar-fancy-box[data-style="color_box_hover"][data-border="true"] .box-inner-wrap{border:1px solid rgba(0,0,0,0.1);transition:all 0.45s cubic-bezier(0.25,1,0.2,1);}.span_12.light .nectar-fancy-box[data-style="color_box_hover"][data-border="true"] .box-inner-wrap{border-color:rgba(255,255,255,0.14);}.nectar-fancy-box[data-style="color_box_hover"][data-border="true"]:hover .box-inner-wrap{border:1px solid rgba(0,0,0,0);}.nectar-fancy-box[data-style="color_box_hover"] .inner{display:-webkit-flex;display:flex;align-items:center;justify-content:center;}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"] .inner-wrap{position:relative;}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"] .inner i.hover-only{position:absolute;opacity:0;top:-2px;left:0;z-index:1;transition:opacity 0.45s cubic-bezier(0.25,1,0.2,1);}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"][data-alignment="right"] .inner i.hover-only{right:0;left:auto;}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"][data-alignment="center"] .inner i.hover-only{left:50%;transform:translateX(-50%);}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"]:hover .inner i.hover-only{opacity:1;}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"].inner i:not(.hover-only){transition:opacity 0.45s cubic-bezier(0.25,1,0.2,1);}.nectar-fancy-box[data-style="color_box_hover"][data-color*="gradient"]:hover .inner i:not(.hover-only){opacity:0;}.nectar-fancy-box[data-style="color_box_hover"] .inner i{text-align:center;}.nectar-fancy-box[data-style="color_box_hover"] .inner p{opacity:0.75;}.vc_col-sm-3 .nectar-fancy-box[data-style="color_box_hover"] .inner p,.vc_col-sm-4 .nectar-fancy-box[data-style="color_box_hover"] .inner p,.nectar-flickity[data-desktop-columns="4"] .nectar-fancy-box[data-style="color_box_hover"] .inner p,.nectar-flickity[data-desktop-columns="3"] .nectar-fancy-box[data-style="color_box_hover"] .inner p{line-height:1.7em;}.nectar-fancy-box[data-style="color_box_hover"] .inner{padding-bottom:0;text-align:center;vertical-align:middle;}.nectar-fancy-box[data-style="color_box_hover"] .inner-wrap{text-align:center;vertical-align:middle;}.span_12.light .nectar-fancy-box[data-style="color_box_hover"] .inner p{opacity:0.65;}.span_12.light .nectar-fancy-box[data-style="color_box_hover"]:hover .inner p{opacity:0.8;}.span_12.light .nectar-fancy-box[data-style="color_box_hover"]:hover:before{display:none}.nectar-fancy-box[data-style="color_box_hover"][data-alignment="left"] .inner,.nectar-fancy-box[data-style="color_box_hover"][data-alignment="left"] .inner-wrap,.nectar-fancy-box[data-style="color_box_hover"][data-alignment="left"] .inner i{text-align:left;}.nectar-fancy-box[data-style="color_box_hover"][data-alignment="right"] .inner,.nectar-fancy-box[data-style="color_box_hover"][data-alignment="right"] .inner-wrap,.nectar-fancy-box[data-style="color_box_hover"][data-alignment="right"] .inner i{text-align:right;}.nectar-fancy-box[data-style="color_box_hover"]:before{display:block;position:absolute;left:1%;top:1%;height:98%;width:98%;opacity:0;content:"";}.nectar-fancy-box[data-style="color_box_hover"]:hover:before{opacity:0.33;}.nectar-fancy-box[data-style="color_box_hover"]:hover .box-bg{transform:scale(1.08);-webkit-transform:scale(1.08);}.nectar-fancy-box[data-style="color_box_hover"]{overflow:visible;padding:0;}.nectar-fancy-box[data-style="color_box_hover"] .box-inner-wrap{padding:10% 15%;position:relative;overflow:hidden;}.nectar-fancy-box[data-style="color_box_hover"]:hover .inner-wrap *,.nectar-fancy-box[data-style="color_box_hover"] .box-bg,.nectar-fancy-box[data-style="color_box_hover"] .box-bg:after{transition:all 0.45s cubic-bezier(0.25,1,0.2,1);}.nectar-fancy-box[data-style="color_box_hover"]:before{transition:opacity 0.45s cubic-bezier(0.25,1,0.2,1);}.nectar-fancy-box[data-style="color_box_hover"]:hover .inner-wrap .nectar-cta .link_wrap .link_text:after{border-color:rgba(255,255,255,0.4);}.nectar-fancy-box[data-style="color_box_hover"]:hover .inner-wrap .nectar-cta[data-style="see-through"] .link_wrap .arrow:after{border-color:#fff;}.nectar-fancy-box[data-style="color_box_hover"]:hover .inner-wrap .nectar-cta .arrow,.nectar-fancy-box[data-style="color_box_hover"]:hover .inner-wrap .nectar-cta .link_wrap .arrow:before{color:#fff;}.nectar-fancy-box[data-style="color_box_hover"] .inner-wrap *,.nectar-fancy-box[data-style="color_box_hover"] .inner-wrap{color:#444;}.span_12.light .nectar-fancy-box[data-style="color_box_hover"] .inner-wrap *,.span_12.light .nectar-fancy-box[data-style="color_box_hover"] .inner-wrap{color:#fff;}.nectar-fancy-box[data-style="color_box_hover"] .box-bg,.nectar-fancy-box[data-style="color_box_hover"]:after{opacity:0}.nectar-fancy-box[data-style="color_box_hover"]:hover .box-bg{opacity:1;}.nectar-fancy-box[data-style="color_box_hover"].using-img .box-bg:after{opacity:0.85;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.9"] .box-bg:after{opacity:0.9;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.8"] .box-bg:after{opacity:0.8;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.7"] .box-bg:after{opacity:0.7;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.6"] .box-bg:after{opacity:0.6;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.5"] .box-bg:after{opacity:0.5;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.4"] .box-bg:after{opacity:0.4;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.3"] .box-bg:after{opacity:0.3;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.2"] .box-bg:after{opacity:0.2;}.nectar-fancy-box[data-style="color_box_hover"][data-hover-o="0.1"] .box-bg:after{opacity:0.1;}.iconsmind-Aquarius:before{content:"\e900"}.iconsmind-Edit:before{content:"\eb8e"}.iconsmind-Rotate-Gesture2:before{content:"\ea01"}.iconsmind-Brain2:before{content:"\edad"}.nectar-split-heading .heading-line{display:block;overflow:hidden;position:relative}.nectar-split-heading .heading-line >div{display:block;transform:translateY(200%);-webkit-transform:translateY(200%)}.nectar-split-heading h1{margin-bottom:0}.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h1,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h2,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h3,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h4{margin:0 auto;}.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated){opacity:0;}.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated).animated-in{opacity:1;}@media only screen and (max-width:999px){.nectar-split-heading[data-m-rm-animation="true"]{opacity:1!important;}}.nectar-split-heading[data-animation-type="line-reveal-by-space"] > * > span{position:relative;display:inline-block;overflow:hidden;}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span{vertical-align:bottom;}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span{line-height:1.2;}@media only screen and (min-width:1000px){.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated) > *{line-height:1.2;}}@media only screen and (max-width:999px){.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not([data-m-rm-animation="true"]):not(.markup-generated) > *{line-height:1.2;}}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-stagger="true"]:not([data-text-effect*="letter-reveal"]) span .inner{transition:transform 1.2s cubic-bezier(0.25,1,0.5,1),opacity 1.2s cubic-bezier(0.25,1,0.5,1);}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span .inner{position:relative;display:inline-block;-webkit-transform:translateY(1.3em);transform:translateY(1.3em);}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span .inner.animated{-webkit-transform:none;transform:none;opacity:1;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="left"]{display:flex;justify-content:flex-start;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="center"]{display:flex;justify-content:center;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="right"]{display:flex;justify-content:flex-end;}@media only screen and (max-width:999px){.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="left"]{display:flex;justify-content:flex-start;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="center"]{display:flex;justify-content:center;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="right"]{display:flex;justify-content:flex-end;}}.nectar-split-heading.font_line_height_1-5{line-height:1.5!important;}.nectar-split-heading.font_line_height_1-5 *{line-height:1.5!important;}#ajax-content-wrap .font_line_height_1-5.nectar-split-heading,body .font_line_height_1-5.nectar-split-heading{line-height:1.5;}@media only screen,print{#ajax-content-wrap .font_size_desktop_24px.nectar-icon-list-item .content h4,.font_size_desktop_24px.nectar-icon-list-item .content h4{font-size:24px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_24px.nectar-icon-list-item .content h4,.font_size_desktop_24px.nectar-icon-list-item .content h4,#header-outer .font_size_desktop_24px.nectar-icon-list-item .content h4{font-size:24px;}}@media only screen and (max-width:999px){#ajax-content-wrap .font_size_tablet_3vw.nectar-icon-list-item .content h4,.font_size_tablet_3vw.nectar-icon-list-item .content h4{font-size:3vw;}}@media only screen and (max-width:999px){#ajax-content-wrap .container-wrap .font_size_tablet_3vw.nectar-icon-list-item .content h4,.container-wrap .font_size_tablet_3vw.nectar-icon-list-item .content h4,#header-outer .font_size_tablet_3vw.nectar-icon-list-item .content h4{font-size:3vw;}}@media only screen and (max-width:690px){html #ajax-content-wrap .font_size_phone_5vw.nectar-icon-list-item .content h4,html .font_size_phone_5vw.nectar-icon-list-item .content h4{font-size:5vw;}}@media only screen and (max-width:690px){html #ajax-content-wrap .container-wrap .font_size_phone_5vw.nectar-icon-list-item .content h4,html .container-wrap .font_size_phone_5vw.nectar-icon-list-item .content h4,html #header-outer .font_size_phone_5vw.nectar-icon-list-item .content h4{font-size:5vw;}}.row .nectar-icon-list .nectar-icon-list-item[class*="font_size"] h4{line-height:1.3;}#ajax-content-wrap .nectar-responsive-text *,body .nectar-responsive-text *{margin-bottom:0;color:inherit;}#ajax-content-wrap .nectar-responsive-text[class*="font_size"] *,body .nectar-responsive-text[class*="font_size"] *{font-size:inherit;line-height:inherit;}.nectar-responsive-text.nectar-link-underline-effect a{text-decoration:none;}.nectar-responsive-text[data-inherit-heading-family] > *{font-family:inherit;font-weight:inherit;font-size:inherit;line-height:inherit;text-transform:inherit;letter-spacing:inherit;}@media only screen,print{#ajax-content-wrap .font_size_desktop_1-1em.nectar-responsive-text,.font_size_desktop_1-1em.nectar-responsive-text{font-size:1.1em;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_1-1em.nectar-responsive-text,.font_size_desktop_1-1em.nectar-responsive-text,#header-outer .font_size_desktop_1-1em.nectar-responsive-text{font-size:1.1em;}}#ajax-content-wrap .font_line_height_1-5.nectar-responsive-text,body .font_line_height_1-5.nectar-responsive-text{line-height:1.5;}.nectar-flickity[data-spacing="20px"]:not(.masonry) .flickity-slider .cell{margin-right:40px;margin-left:0;}.nectar-drag-indicator[data-type="solid"]{mix-blend-mode:normal;left:-47px;top:-47px;width:94px;height:94px;}.nectar-drag-indicator[data-type="solid"] .color-circle{background-color:#000;width:100%;height:100%;display:block;position:absolute;left:-2px;top:-2px;transform:scale(0.2);transition:transform 0.45s ease,opacity 0.3s ease;opacity:0;border-radius:50%;}.nectar-drag-indicator[data-type="solid"].visible .color-circle{transform:scale(1);opacity:1;}.nectar-drag-indicator[data-type="solid"] i{font-size:21px;top:-13px;}.nectar-drag-indicator[data-type="solid"]:before{display:none;}.nectar-drag-indicator[data-type="solid"].visible i{transition:transform 0.45s ease,opacity 0.3s ease,color 0.3s ease;}.nectar-drag-indicator[data-type="solid"] i.fa-angle-left{left:23px;}.nectar-drag-indicator[data-type="solid"] i.fa-angle-right{right:27px;}.nectar-drag-indicator.visible.pointer-down[data-type="solid"] .color-circle{transform:scale(0.15);}.nectar-drag-indicator.visible.pointer-down[data-type="solid"] i{color:inherit!important;}.nectar-drag-indicator.visible.pointer-down[data-type="solid"] i.fa-angle-left{transform:translateX(-10px);}.nectar-drag-indicator.visible.pointer-down[data-type="solid"] i.fa-angle-right{transform:translateX(10px);}.nectar-flickity.nectar-carousel.nectar-carousel:not(.masonry).tb-spacing-0 .flickity-viewport{margin-top:0;margin-bottom:0;}@media only screen and (min-width:1300px){.nectar-flickity.nectar-carousel[data-desktop-columns="2"][data-spacing="15px"][data-format="default"] .cell{width:calc((100% - 30px) / 2);}}@media only screen and (min-width:1000px) and (max-width:1299px){.nectar-flickity.nectar-carousel[data-small-desktop-columns="2"][data-spacing="15px"][data-format="default"] .cell{width:calc((100% - 30px) / 2);}}@media only screen and (max-width:999px) and (min-width:690px){.nectar-flickity.nectar-carousel[data-tablet-columns="2"][data-spacing="15px"][data-format="default"] .cell{width:calc((100% - 30px) / 2);}}.nectar-simple-slider .cell.color-overlay-1-transparent > .bg-layer-wrap > .color-overlay{background-color:transparent;}@media only screen and (max-width:999px){.wpb_column.child_column.mobile-disable-entrance-animation,.wpb_column.child_column.mobile-disable-entrance-animation:not([data-scroll-animation-mobile="true"]) > .vc_column-inner{transform:none!important;opacity:1!important;}.nectar-mask-reveal.mobile-disable-entrance-animation,[data-animation="mask-reveal"].mobile-disable-entrance-animation > .vc_column-inner{clip-path:none!important;}}@media only screen and (max-width:999px){.wpb_column.mobile-disable-entrance-animation,.wpb_column.mobile-disable-entrance-animation:not([data-scroll-animation-mobile="true"]) > .vc_column-inner{transform:none!important;opacity:1!important;}.nectar-mask-reveal.mobile-disable-entrance-animation,[data-animation="mask-reveal"].mobile-disable-entrance-animation > .vc_column-inner{clip-path:none!important;}}@media only screen and (max-width:999px){.mobile-disable-bg-image-animation .row-bg-wrap .inner-wrap,.mobile-disable-bg-image-animation .nectar-video-wrap .nectar-video-inner,.mobile-disable-bg-image-animation .row-bg{animation:none!important;}.mobile-disable-bg-image-animation .row-bg-wrap .row-bg{opacity:1!important;}.mobile-disable-bg-image-animation .row-bg-wrap .inner-wrap{transform:none!important;opacity:1!important;}.mobile-disable-bg-image-animation .row-bg-layer{clip-path:none!important;}}@media only screen and (max-width:999px){.nectar-flickity.nectar-carousel:not(.masonry).tb-spacing-0 .flickity-page-dots{bottom:-50px;}}@media only screen and (max-width:999px){.nectar-fancy-box:not([data-style="parallax_hover"]):not([data-style="hover_desc"]).min_height_tablet_275px .inner,.nectar-fancy-box[data-style="parallax_hover"].min_height_tablet_275px .meta-wrap,.nectar-fancy-box[data-style="hover_desc"].min_height_tablet_275px{min-height:275px!important;}}@media only screen and (max-width:690px){.nectar-fancy-box:not([data-style="parallax_hover"]):not([data-style="hover_desc"]).min_height_phone_255px .inner,.nectar-fancy-box[data-style="parallax_hover"].min_height_phone_255px .meta-wrap,.nectar-fancy-box[data-style="hover_desc"].min_height_phone_255px{min-height:255px!important;}}.wpb_column.border_style_solid > .vc_column-inner,.wpb_column.border_style_solid > .n-sticky > .vc_column-inner{border-style:solid;}.col.padding-10-percent > .vc_column-inner,.col.padding-10-percent > .n-sticky > .vc_column-inner{padding:calc(600px * 0.10);}@media only screen and (max-width:690px){.col.padding-10-percent > .vc_column-inner,.col.padding-10-percent > .n-sticky > .vc_column-inner{padding:calc(100vw * 0.10);}}@media only screen and (min-width:1000px){.col.padding-10-percent > .vc_column-inner,.col.padding-10-percent > .n-sticky > .vc_column-inner{padding:calc((100vw - 180px) * 0.10);}.column_container:not(.vc_col-sm-12) .col.padding-10-percent > .vc_column-inner{padding:calc((100vw - 180px) * 0.05);}}@media only screen and (min-width:1425px){.col.padding-10-percent > .vc_column-inner{padding:calc(1245px * 0.10);}.column_container:not(.vc_col-sm-12) .col.padding-10-percent > .vc_column-inner{padding:calc(1245px * 0.05);}}.full-width-content .col.padding-10-percent > .vc_column-inner{padding:calc(100vw * 0.10);}@media only screen and (max-width:999px){.full-width-content .col.padding-10-percent > .vc_column-inner{padding:calc(100vw * 0.10);}}@media only screen and (min-width:1000px){.full-width-content .column_container:not(.vc_col-sm-12) .col.padding-10-percent > .vc_column-inner{padding:calc(100vw * 0.05);}}body[data-aie] .col[data-padding-pos="left"] > .vc_column-inner,body #ajax-content-wrap .col[data-padding-pos="left"] > .vc_column-inner,#ajax-content-wrap .col[data-padding-pos="left"] > .n-sticky > .vc_column-inner{padding-right:0;padding-top:0;padding-bottom:0}.nectar-cta.border_color_777777 .link_wrap{border-color:#777777;}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta,.font_size_desktop_16px.nectar-cta{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta,.font_size_desktop_16px.nectar-cta,#header-outer .font_size_desktop_16px.nectar-cta{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta *,.font_size_desktop_16px.nectar-cta *{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta *,.font_size_desktop_16px.nectar-cta *,#header-outer .font_size_desktop_16px.nectar-cta *{font-size:16px;}}.nectar-cta.font_size_desktop_16px,.nectar-cta.font_size_desktop_16px *{line-height:1.1;}.nectar-cta.font_size_desktop_16px[data-style="underline"],.nectar-cta.font_size_desktop_16px *{line-height:1.5;}@media only screen and (max-width:999px){.nectar-cta.display_tablet_inherit{display:inherit;}}@media only screen and (max-width:999px){.vc_row.bottom_padding_tablet_20pct{padding-bottom:20%!important;}}@media only screen and (max-width:999px){.vc_row.top_padding_tablet_10pct{padding-top:10%!important;}}@media only screen and (max-width:690px){.nectar-cta.display_phone_inherit{display:inherit;}}.screen-reader-text,.nectar-skip-to-content:not(:focus){border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;}.row .col img:not([srcset]){width:auto;}.row .col img.img-with-animation.nectar-lazy:not([srcset]){width:100%;}
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700;800&display=swap');
+.font-family-eng {font-family: 'Montserrat', sans-serif !important;  }
+
+body { color: #444; word-break: keep-all;}
+.fw-100 { font-weight: 100 !important; }
+.fw-300 { font-weight: 300 !important; }
+.fw-400 { font-weight: 400 !important; }
+.fw-500 { font-weight: 500 !important; } 
+.fw-600 { font-weight: 600 !important; } 
+.fw-700 { font-weight: 700 !important; } 
+.fw-800 { font-weight: 800 !important; }
+
+.desktop-image { display: none !important; }
+.mobile-image { display: none !important; }
+@media (min-width: 769px) { .desktop-image { display: block !important; } }
+@media (max-width: 768px) { .mobile-image { display: block !important; } }
+
+/* Post Love Btn Remove*/
+#ajax-content-wrap .sharing-default-minimal .nectar-social .nectar-love,
+body .sharing-default-minimal .nectar-social .nectar-love,
+.nectar-love-button {display: none !important;}
+
+/* Proudct */
+.nectar-post-grid-filters .active {font-weight: 700; }
+.styled-table { width: 100%; border-collapse: collapse; margin: 0; line-height: 1.5; border-top: 2px solid #222 !important;  }
+.styled-table th { background-color: #f7f7f7; font-size: 16px !important; font-weight: 500 !important; text-align: center !important; vertical-align: middle; padding: 20px !important; border: 1px solid #aaa !important; border-left: none !important; white-space: nowrap; }
+.styled-table td { padding: 20px; font-size: 16px !important; font-weight: 500 !important; text-align: center; border: 1px solid #aaa !important; border-right: none !important; vertical-align: middle; background-color: #fff !important; }
+@media screen and (max-width: 768px) {
+  .styled-table th, .styled-table td {font-size: 14px;padding: 10px;}
+}
+
+/* ETC */
+.nectar-fancy-box:before {box-shadow: none !important;}
+.list-item-custom h5 {font-size: 18px !important; font-weight: 600 !important;}
+
+
+/* Header Navigation */
+#top nav>ul>li[class*=button_bordered]>a:before {border: 1px solid #aaa !important;}
+#header-outer:not(.transparent) .sf-menu > li ul {border-top: none !important;}
+.sf-menu>li>ul {box-shadow: 0 20px 20px rgba(0, 0, 0, .08) !important;}
+
+
+/* DP3 > Main */
+@media (max-width:767px) { .nectar-post-grid[data-grid-item-height="80vh"] .nectar-post-grid-item { min-height:400px; } }
+@media (min-width:768px) and (max-width:1024px) { .nectar-post-grid[data-grid-item-height="80vh"] .nectar-post-grid-item { min-height:600px; } .nectar-milestone .number { font-size:64px!important; } }
+
+/* 연구및개발 > Development  */
+.nectar-fancy-box:before { box-shadow:none!important; }
+#process-custom .nectar-icon-list-item {margin-bottom: 40px}
+
+/* 고객지원 > FAQ */
+#ajax-content-wrap .nectar-inherit-h5 {font-weight:400 !important}
+
+/* 고객지원 > Inquiry */
+#online_qna_default form label { font-size:16px!important; }
+#online_qna_default .fancy-select-wrap { padding-top:0; }
+#online_qna_default .wpcf7-form p>label + br + span, #online_qna_default .wpcf7-form p>label>span { margin-top:8px; }
+#online_qna_default .wpcf7-list-item { margin:0 20px 20px 0; }
+#online_qna_default .wpcf7-form .nectar-wpcf7-inline-form { padding-top:0; }
+#online_qna_default select, #online_qna_default textarea { padding:16px 20px; }
+
+.wpcf7-form .wpcf7-checkbox input[type="checkbox"], .wpcf7-form .wpcf7-radio input[type="radio"] { display:none; }
+.wpcf7-form .wpcf7-checkbox label, .wpcf7-form .wpcf7-radio label { display:inline-block; margin:0; }
+.wpcf7-form .wpcf7-checkbox label span, .wpcf7-form .wpcf7-radio label span { display:inline-block; padding:11px 20px; border:1px solid #444; background-color:#fff; color:#0a0a0a; cursor:pointer; transition:all .3s; border-radius:5px; }
+.wpcf7-form .wpcf7-checkbox input[type="checkbox"]:checked + span, .wpcf7-form .wpcf7-radio input[type="radio"]:checked + span { background-color:#0a0a0a; border:1px solid #0a0a0a; color:#fff; }
+.wpcf7-form .wpcf7-checkbox label span:hover, .wpcf7-form .wpcf7-radio label span:hover { background-color:#e5e5e5; border-color:#e5e5e5; color:#0a0a0a; }
+
+
+/* 회사소개 > Overview */
+#client_border img { border:1px solid #eee; margin-bottom:0; }
+.desktop-image { display:none; }
+.mobile-image { display:none; }
+@media (min-width:769px) { .desktop-image { display:block; } }
+@media (max-width:768px) { .mobile-image { display:block; } }
+
+/* 회사소개 > History */
+.font-eng {font-family: 'Montserrat', sans-serif !important;}
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-nav {width: 16.67% !important}
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-content {padding-left: 0 !important}
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-nav .active a {color: #29adb2 !important}
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-content > div {padding-top:10% ;padding-bottom:10% }
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-content > div:first-child {padding-top:0 }
+#tabs-left-custom .nectar-scrolling-tabs .scrolling-tab-content > div:last-child {padding-bottom:0 }
+</style>
+<link href="../wp-content/themes/salient-child/style.css%3Fver=17.3.0.css" id="salient-child-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR%3A500%7CNoto+Sans%3A400&amp;ver=6.8.3" id="redux-google-fonts-salient_redux-css" media="all" rel="stylesheet" type="text/css"/>
+<script id="jquery-core-js" src="../wp-includes/js/jquery/jquery.min.js%3Fver=3.7.1" type="text/javascript"></script>
+<script id="jquery-migrate-js" src="../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.4.1" type="text/javascript"></script>
+<script></script><link href="../wp-json/index.html" rel="https://api.w.org/"/><link href="../wp-json/wp/v2/pages/8101" rel="alternate" title="JSON" type="application/json"/><link href="https://mwpdemo51703.mycafe24.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<meta content="WordPress 6.8.3" name="generator"/>
+<link href="../index.html%3Fp=8101.html" rel="canonical"/>
+<link href="../index.html%3Fp=8101.html" rel="shortlink"/>
+<link href="../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fmwpdemo51703.mycafe24.com%252Fdevelopment%252F" rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"/>
+<link href="../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fmwpdemo51703.mycafe24.com%252Fdevelopment%252F&amp;format=xml" rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"/>
+<script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><meta content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." name="generator"/>
+<style data-type="vc_shortcodes-default-css" type="text/css">.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></meta></head><body class="wp-singular page-template-default page page-id-8101 wp-theme-salient wp-child-theme-salient-child material wpb-js-composer js-comp-ver-8.4.1 vc_responsive" data-aie="none" data-ajax-transitions="false" data-animated-anchors="true" data-apte="standard" data-bg-header="false" data-body-border="off" data-boxed-style="" data-button-style="slightly_rounded_shadow" data-cad="750" data-cae="easeOutCubic" data-cart="false" data-col-gap="default" data-dropdown-style="minimal" data-ext-padding="60" data-ext-responsive="true" data-fancy-form-rcs="1" data-flex-cols="true" data-footer-reveal="false" data-footer-reveal-shadow="none" data-force-header-trans-color="light" data-form-style="default" data-form-submit="regular" data-full-width-header="true" data-header-breakpoint="1000" data-header-color="custom" data-header-format="centered-menu" data-header-inherit-rc="false" data-header-resize="0" data-header-search="true" data-hhun="1" data-is="minimal" data-loading-animation="none" data-ls="fancybox" data-m-animate="0" data-megamenu-width="contained" data-permanent-transparent="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-responsive="1" data-slide-out-widget-area="true" data-slide-out-widget-area-style="simple" data-smooth-scrolling="0" data-user-account-button="false" data-user-set-ocm="off">
+<script type="text/javascript">
+	 (function(window, document) {
+
+		document.documentElement.classList.remove("no-js");
+
+		if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
+			document.body.className += " using-mobile-browser mobile ";
+		}
+		if(navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
+			document.body.className += " using-ios-device ";
+		}
+
+		if( !("ontouchstart" in window) ) {
+
+			var body = document.querySelector("body");
+			var winW = window.innerWidth;
+			var bodyW = body.clientWidth;
+
+			if (winW > bodyW + 4) {
+				body.setAttribute("style", "--scroll-bar-w: " + (winW - bodyW - 4) + "px");
+			} else {
+				body.setAttribute("style", "--scroll-bar-w: 0px");
+			}
+		}
+
+	 })(window, document);
+   </script><a class="nectar-skip-to-content" data-i18n="navigation.skip_to_main_content" href="../index.html%3Fp=8101.html#ajax-content-wrap">Skip to main content</a><div class="ocm-effect-wrap"><div class="ocm-effect-wrap-inner">
+<div data-header-mobile-fixed="1" id="header-space"></div>
+<div data-box-shadow="none" data-cart="false" data-condense="false" data-format="centered-menu" data-full-width="true" data-has-buttons="yes" data-has-menu="true" data-header-button_style="default" data-header-resize="0" data-lhe="default" data-logo-height="30" data-m-logo-height="24" data-megamenu-rt="0" data-mobile-fixed="1" data-padding="28" data-permanent-transparent="false" data-ptnm="false" data-remove-fixed="0" data-shrink-num="6" data-transparency-option="" data-user-set-bg="#f3f3f3" data-using-logo="1" data-using-pr-menu="false" data-using-secondary="0" id="header-outer">
+<div class="nectar" id="search-outer">
+<div id="search">
+<div class="container">
+<div id="search-box">
+<div class="inner-wrap">
+<div class="col span_12">
+<form action="../index.html" method="GET" role="search">
+<input aria-label="Search" data-i18n-aria="navigation.search_1" data-i18n-placeholder="navigation.search_1" name="s" placeholder="Search" type="text" value=""/>
+</form>
+</div><!--/span_12-->
+</div><!--/inner-wrap-->
+</div><!--/search-box-->
+<div id="close"><a href="../index.html%3Fp=8101.html#" role="button"><span class="screen-reader-text" data-i18n="navigation.close_search">Close Search</span>
+<span class="close-wrap"> <span class="close-line close-line1" role="presentation"></span> <span class="close-line close-line2" role="presentation"></span> </span> </a></div>
+</div><!--/container-->
+</div><!--/search-->
+</div><!--/search-outer-->
+<header id="top" role="banner">
+<div class="container">
+<div class="row">
+<div class="col span_3">
+<a data-supplied-ml="false" data-supplied-ml-starting="false" data-supplied-ml-starting-dark="false" href="../index.html" id="logo">
+<img alt="mwpdemo44061" class="stnd skip-lazy default-logo dark-version" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/DiagnoX-text-logo-light.png" srcset="../wp-content/uploads/DiagnoX-text-logo-light.png 1x, ../wp-content/uploads/DiagnoX-text-logo-light.png 2x" width="550"/> </a>
+</div><!--/span_3-->
+<div class="col span_9 col_last">
+<div class="nectar-mobile-only mobile-header"><div class="inner"></div></div>
+<a class="mobile-search" href="../index.html%3Fp=8101.html#searchbox"><span aria-hidden="true" class="nectar-icon icon-salient-search"></span><span class="screen-reader-text" data-i18n="content_en.search_2">search</span></a>
+<div class="slide-out-widget-area-toggle mobile-icon simple" data-custom-color="false" data-icon-animation="simple-transform">
+<div> <a aria-expanded="false" aria-label="Navigation Menu" class="closed" data-i18n-aria="navigation.navigation_menu" href="../index.html%3Fp=8101.html#mobile-menu" role="button">
+<span class="screen-reader-text" data-i18n="navigation.menu">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span> </a></div>
+</div>
+<nav aria-label="Main Menu" data-i18n-aria="navigation.main_menu">
+<ul class="sf-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8672" id="menu-item-8672"><a aria-expanded="false" aria-haspopup="true" data-i18n="navigation.about_1" href="../index.html%3Fp=8101.html#"><span class="menu-title-text" data-i18n="navigation.about_1">About</span></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8904" data-i18n="navigation.overview" id="menu-item-8904"><a data-i18n="navigation.overview" href="../index.html%3Fp=8057.html"><span class="menu-title-text" data-i18n="navigation.overview">Overview</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8905" data-i18n="navigation.history" id="menu-item-8905"><a data-i18n="navigation.history" href="../index.html%3Fp=8058.html"><span class="menu-title-text" data-i18n="navigation.history">History</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8906" data-i18n="content_en.directions" id="menu-item-8906"><a data-i18n="content_en.directions" href="../index.html%3Fp=8059.html"><span class="menu-title-text" data-i18n="content_en.directions">Directions</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8902" id="menu-item-8902"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.project" href="../index.html%3Fp=8101.html#"><span class="menu-title-text" data-i18n="content_en.project">Project</span></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8912" data-i18n="content_en.diagnox" id="menu-item-8912"><a data-i18n="content_en.diagnox" href="../index.html%3Fp=8123.html"><span class="menu-title-text" data-i18n="content_en.diagnox">DiagnoX</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children nectar-regular-menu-item menu-item-8901" id="menu-item-8901"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.research_and_development" href="../index.html%3Fp=8101.html#"><span class="menu-title-text" data-i18n="content_en.research_and_development">Research and Development</span></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8911" data-i18n="navigation.research" id="menu-item-8911"><a data-i18n="navigation.research" href="../index.html%3Fp=8103.html"><span class="menu-title-text" data-i18n="navigation.research">Research</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8101 current_page_item nectar-regular-menu-item menu-item-8910" data-i18n="navigation.development" id="menu-item-8910"><a aria-current="page" data-i18n="navigation.development" href="../index.html%3Fp=8101.html"><span class="menu-title-text" data-i18n="navigation.development">Development</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8900" id="menu-item-8900"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.customer_support" href="../index.html%3Fp=8101.html#"><span class="menu-title-text" data-i18n="content_en.customer_support">Customer Support</span></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8907" data-i18n="navigation.faq" id="menu-item-8907"><a data-i18n="navigation.faq" href="../index.html%3Fp=8065.html"><span class="menu-title-text" data-i18n="navigation.faq">FAQ</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8908" data-i18n="content_en.downloads" id="menu-item-8908"><a data-i18n="content_en.downloads" href="../index.html%3Fp=8066.html"><span class="menu-title-text" data-i18n="content_en.downloads">Downloads</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8909" data-i18n="navigation.inquiry_1" id="menu-item-8909"><a data-i18n="navigation.inquiry_1" href="../index.html%3Fp=8067.html"><span class="menu-title-text" data-i18n="navigation.inquiry_1">Inquiry</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8899" id="menu-item-8899"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.newsroom" href="../index.html%3Fp=8101.html#"><span class="menu-title-text" data-i18n="content_en.newsroom">Newsroom</span></a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8897" data-i18n="navigation.news_1" id="menu-item-8897"><a data-i18n="navigation.news_1" href="../contact-us/post-news/index.html"><span class="menu-title-text" data-i18n="navigation.news_1">News</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8896" data-i18n="navigation.gallery_2" id="menu-item-8896"><a data-i18n="navigation.gallery_2" href="../contact-us/post-gallery/index.html"><span class="menu-title-text" data-i18n="navigation.gallery_2">Gallery</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8898" data-i18n="navigation.webzine_2" id="menu-item-8898"><a data-i18n="navigation.webzine_2" href="../contact-us/post-webzine/index.html"><span class="menu-title-text" data-i18n="navigation.webzine_2">Webzine</span></a></li>
+</ul>
+</li>
+</ul>
+<ul class="buttons sf-menu" data-user-set-ocm="off">
+<li id="search-btn"><div><a href="../index.html%3Fp=8101.html#searchbox"><span aria-hidden="true" class="icon-salient-search"></span><span class="screen-reader-text" data-i18n="content_en.search_2">search</span></a></div> </li>
+</ul>
+</nav>
+<div class="logo-spacing" data-using-image="true"><img alt="mwpdemo44061" class="hidden-logo" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/DiagnoX-text-logo-light.png" width="550"/></div>
+</div><!--/span_9-->
+</div><!--/row-->
+<div data-mobile-fixed="1" id="mobile-menu">
+<div class="inner">
+<div class="menu-items-wrap row" data-has-secondary-text="false">
+<ul>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8672"><a aria-expanded="false" aria-haspopup="true" data-i18n="navigation.about_1" href="../index.html%3Fp=8101.html#">About</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8904" data-i18n="navigation.overview"><a data-i18n="navigation.overview" href="../index.html%3Fp=8057.html">Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8905" data-i18n="navigation.history"><a data-i18n="navigation.history" href="../index.html%3Fp=8058.html">History</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8906" data-i18n="content_en.directions"><a data-i18n="content_en.directions" href="../index.html%3Fp=8059.html">Directions</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8902"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.project" href="../index.html%3Fp=8101.html#">Project</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8912" data-i18n="content_en.diagnox"><a data-i18n="content_en.diagnox" href="../index.html%3Fp=8123.html">DiagnoX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8901"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.research_and_development" href="../index.html%3Fp=8101.html#">Research and Development</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8911" data-i18n="navigation.research"><a data-i18n="navigation.research" href="../index.html%3Fp=8103.html">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8101 current_page_item menu-item-8910" data-i18n="navigation.development"><a aria-current="page" data-i18n="navigation.development" href="../index.html%3Fp=8101.html">Development</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8900"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.customer_support" href="../index.html%3Fp=8101.html#">Customer Support</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8907" data-i18n="navigation.faq"><a data-i18n="navigation.faq" href="../index.html%3Fp=8065.html">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8908" data-i18n="content_en.downloads"><a data-i18n="content_en.downloads" href="../index.html%3Fp=8066.html">Downloads</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8909" data-i18n="navigation.inquiry_1"><a data-i18n="navigation.inquiry_1" href="../index.html%3Fp=8067.html">Inquiry</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8899"><a aria-expanded="false" aria-haspopup="true" data-i18n="content_en.newsroom" href="../index.html%3Fp=8101.html#">Newsroom</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8897" data-i18n="navigation.news_1"><a data-i18n="navigation.news_1" href="../contact-us/post-news/index.html">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8896" data-i18n="navigation.gallery_2"><a data-i18n="navigation.gallery_2" href="../contact-us/post-gallery/index.html">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8898" data-i18n="navigation.webzine_2"><a data-i18n="navigation.webzine_2" href="../contact-us/post-webzine/index.html">Webzine</a></li>
+</ul>
+</li>
+</ul>
+</div><!--/menu-items-wrap-->
+<div class="below-menu-items-wrap">
+</div><!--/below-menu-items-wrap-->
+</div><!--/inner-->
+</div><!--/mobile-menu-->
+</div><!--/container-->
+</header>
+</div>
+<div id="ajax-content-wrap">
+<div class="container-wrap">
+<div class="container main-content" role="main">
+<div class="row">
+<div class="wpb_row vc_row-fluid vc_row top-level" data-bottom-percent="5%" data-column-margin="default" data-midnight="dark" data-top-percent="5%" id="fws_69299d1954da4" style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+<div class="vc_col-sm-8 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-split-heading font-eng" data-align="default" data-animation-delay="0" data-animation-offset="" data-animation-type="line-reveal-by-space" data-custom-font-size="false" data-i18n="research.혁신적인_개발_프로세스와_기술" data-m-align="inherit" data-m-rm-animation="" data-stagger="" data-text-effect="default"><h1 data-i18n="research.혁신적인_개발_프로세스와_기술">혁신적인 개발 프로세스와 기술</h1></div><div class="nectar-responsive-text font_size_desktop_1-1em font_line_height_1-5 nectar-link-underline-effect"><p data-i18n="contact.우리의_개발은_혁신을_주도하며_가장_진보된_기술을_통해_사용자에게_최고의_가치를_제공합니다">우리의 개발은 혁신을 주도하며, 가장 진보된 기술을 통해 사용자에게 최고의 가치를 제공합니다. 최신 기술을 활용한 끊임없는 연구와 개발로, 우리가 제공하는 솔루션은 항상 최신의 상태로 유지됩니다.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top bottom_margin_5pct clip-path-start-desktop-0-20pct-0-20pct-0 clip-path-end-desktop-0-0pct-0-0pct-0 clip-path-start-tablet-0-0-0-0-0 clip-path-end-tablet-0-0-0-0-0 clip-path-start-phone-0-0-0-0-0 clip-path-end-phone-0-0-0-0-0 clip-path-entire-row" data-column-margin="default" data-midnight="dark" id="fws_69299d1955d6f" style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="clip-path" data-bg-animation-delay="200" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col has-animation no-extra-padding inherit_tablet inherit_phone mobile-disable-entrance-animation" data-animation="fade-in" data-bg-color="" data-bg-opacity="1" data-delay="200" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="img-with-aniamtion-wrap" data-animation="none" data-max-width="100%" data-max-width-mobile="default" data-shadow="none">
+<div class="inner">
+<div class="hover-wrap">
+<div class="hover-wrap-inner">
+<img alt="" class="img-with-animation skip-lazy" data-animation="none" data-delay="0" decoding="async" fetchpriority="high" height="790" sizes="(max-width: 1920px) 100vw, 1920px" src="../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1.jpg" srcset="../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1.jpg 1920w, ../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1-300x123.jpg 300w, ../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1-1024x421.jpg 1024w, ../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1-768x316.jpg 768w, ../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1-1536x632.jpg 1536w, ../wp-content/uploads/2024/12/pexels-ivan-samkov-9629716-1-1870x770.jpg 1870w" width="1920"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-section" data-bottom-percent="5%" data-column-margin="default" data-midnight="dark" data-top-percent="5%" id="fws_69299d1956b80" style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col nectar-sticky-column no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading" data-i18n="content_en.technologies" style="text-align: left;font-family:Montserrat;font-weight:700;font-style:normal">Technologies</h6>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-8 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-split-heading font_line_height_1-5" data-align="default" data-animation-delay="0" data-animation-offset="" data-animation-type="line-reveal-by-space" data-custom-font-size="false" data-i18n="services.미래의_문제를_해결하는_데_중요한_역할을_하는_우리의_핵심_기술들을_소개합니다" data-m-align="inherit" data-m-rm-animation="" data-stagger="" data-text-effect="default"><h3 data-i18n="services.미래의_문제를_해결하는_데_중요한_역할을_하는_우리의_핵심_기술들을_소개합니다" style="max-width: 900px;">미래의 문제를 해결하는 데 중요한 역할을 하는 우리의 핵심 기술들을 소개합니다.</h3></div><div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 30px;"></div></div><div class="nectar-flickity not-initialized nectar-carousel tb-spacing-0" data-adaptive-height="" data-autoplay="" data-autoplay-dur="5000" data-border-radius="none" data-centered-cells="false" data-column-border="" data-column-color="" data-column-padding="0" data-control-color="default" data-control-style="material_pagination" data-controls="default" data-desktop-columns="2" data-drag-scale="true" data-format="default" data-overflow="visible" data-pagination-alignment="default" data-pause-on-hover="" data-phone-columns="1" data-r-bottom-total="" data-small-desktop-columns="2" data-spacing="15px" data-tablet-columns="2" data-touch-icon-color="default" data-wrap="no-wrap"><div class="flickity-viewport"> <div class="flickity-slider"><div class="cell"><div class="inner-wrap-outer"><div class="inner-wrap"><div class="nectar-fancy-box min_height_tablet_275px min_height_phone_255px" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="extra-color-1" data-delay="" data-hover-o="0.9" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 300px"><div class="inner-wrap"><span class="im-icon-wrap" data-color="extra-color-1"><span><svg height="50" role="presentation" version="1.1" viewbox="0 0 32 32" width="50" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.68 14.325c-0.096 0-0.195-0.021-0.287-0.065-0.232-0.109-0.38-0.344-0.38-0.601v-7.252l-9.58 7.775c-0.2 0.161-0.475 0.195-0.707 0.084-0.232-0.112-0.38-0.347-0.38-0.601v-7.135l-8.241 7.621c-0.271 0.251-0.693 0.233-0.943-0.033-0.251-0.271-0.233-0.695 0.037-0.943l9.361-8.656c0.195-0.18 0.477-0.224 0.72-0.123 0.244 0.107 0.4 0.347 0.4 0.612v7.253l9.583-7.775c0.197-0.16 0.472-0.195 0.705-0.084 0.232 0.112 0.379 0.347 0.379 0.601v7.255l9.583-7.775c0.197-0.16 0.472-0.195 0.705-0.084 0.232 0.109 0.379 0.347 0.379 0.601v8.633c0 0.367-0.299 0.667-0.667 0.667-0.365 0-0.667-0.3-0.667-0.667v-7.232l-9.58 7.775c-0.123 0.096-0.271 0.148-0.421 0.148zM20.68 27.659c-0.096 0-0.195-0.021-0.287-0.065-0.232-0.109-0.38-0.344-0.38-0.601v-7.252l-9.58 7.775c-0.2 0.161-0.475 0.195-0.707 0.084-0.232-0.112-0.38-0.347-0.38-0.601v-7.136l-8.241 7.623c-0.271 0.251-0.693 0.233-0.943-0.033-0.251-0.271-0.233-0.695 0.037-0.943l9.361-8.656c0.195-0.18 0.477-0.224 0.72-0.123 0.244 0.107 0.4 0.347 0.4 0.612v7.252l9.583-7.773c0.197-0.161 0.472-0.195 0.705-0.084 0.232 0.112 0.379 0.348 0.379 0.601v7.253l9.583-7.773c0.197-0.161 0.472-0.196 0.705-0.084 0.232 0.109 0.379 0.348 0.379 0.601v8.635c0 0.365-0.299 0.667-0.667 0.667-0.365 0-0.667-0.301-0.667-0.667v-7.235l-9.58 7.775c-0.123 0.097-0.271 0.149-0.421 0.149z"></path>
+</svg></span></span>
+<h5 class="fw-700">인공지능 (AI) 및 머신러닝</h5>
+<div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 15px;"></div></div>
+<p data-i18n="services.우리의_기술은_ai와_머신러닝을_활용하여_사용자_데이터를_분석하고_예측하는_능력을_강화합니">우리의 기술은 AI와 머신러닝을 활용하여 사용자 데이터를 분석하고 예측하는 능력을 강화합니다.</p></div></div> </div> </div></div></div></div><div class="cell"><div class="inner-wrap-outer"><div class="inner-wrap"><div class="nectar-fancy-box min_height_tablet_275px min_height_phone_255px" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="extra-color-1" data-delay="" data-hover-o="0.9" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 300px"><div class="inner-wrap"><span class="im-icon-wrap" data-color="extra-color-1"><span><svg height="50" role="presentation" version="1.1" viewbox="0 0 32 32" width="50" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.895 32h-19.789c-3.367 0-6.105-2.739-6.105-6.104v-19.792c0-3.364 2.739-6.104 6.105-6.104h19.789c3.365 0 6.105 2.74 6.105 6.104v19.792c0 3.365-2.74 6.104-6.105 6.104zM6.105 1.333c-2.632 0-4.772 2.14-4.772 4.771v19.792c0 2.631 2.14 4.771 4.772 4.771h19.789c2.632 0 4.772-2.14 4.772-4.771v-19.792c0-2.631-2.14-4.771-4.772-4.771h-19.789zM23.228 28h-14.456c-3.367 0-6.105-2.739-6.105-6.104v-13.125c0-3.364 2.739-6.104 6.105-6.104h14.456c3.365 0 6.105 2.74 6.105 6.104v13.125c0 3.365-2.74 6.104-6.105 6.104zM8.772 4c-2.632 0-4.772 2.14-4.772 4.771v13.125c0 2.631 2.14 4.771 4.772 4.771h14.456c2.632 0 4.772-2.14 4.772-4.771v-13.125c0-2.631-2.14-4.771-4.772-4.771h-14.456zM6.443 25.153c-0.172 0-0.343-0.068-0.472-0.195-0.209-0.208-0.255-0.528-0.115-0.789l2.788-5.139c0.031-0.057 0.069-0.109 0.115-0.153l10.755-10.753c0.26-0.259 0.683-0.259 0.943 0l2.349 2.351c0.26 0.259 0.26 0.684 0 0.943l-10.752 10.752c-0.045 0.045-0.097 0.084-0.153 0.115l-5.14 2.789c-0.099 0.055-0.208 0.080-0.317 0.080zM9.771 19.751l-1.668 3.080 3.076-1.671 10.215-10.213-1.407-1.408-10.216 10.212zM22.219 12.003l-0.943-0.943 1.727-1.725c0.327-0.327 0.547-0.721 0.605-1.084 0.032-0.208 0.028-0.511-0.195-0.733-0.18-0.179-0.425-0.251-0.735-0.195-0.361 0.057-0.757 0.279-1.084 0.605l-1.727 1.727-0.943-0.943 1.727-1.727c0.528-0.528 1.175-0.877 1.817-0.98 0.729-0.112 1.401 0.085 1.885 0.571 0.94 0.939 0.763 2.531-0.411 3.703l-1.725 1.724zM11.171 17.635l2.389 2.388-0.943 0.943-2.389-2.388 0.943-0.943zM15.663 12.726l2.445 2.445-0.943 0.943-2.445-2.445 0.943-0.943z"></path>
+</svg></span></span>
+<h5 class="fw-700" data-i18n="content_ko.클라우드_컴퓨팅">클라우드 컴퓨팅</h5>
+<div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 15px;"></div></div>
+<p data-i18n="contact.클라우드_환경을_활용한_데이터_관리_및_처리로_유연하고_확장_가능한_시스템을_제공합니다_사">클라우드 환경을 활용한 데이터 관리 및 처리로, 유연하고 확장 가능한 시스템을 제공합니다. 사용자와 데이터가 분산되어 있어, 더 안전하고 빠르게 서비스를 제공합니다.</p></div></div> </div> </div></div></div></div><div class="cell"><div class="inner-wrap-outer"><div class="inner-wrap"><div class="nectar-fancy-box min_height_tablet_275px min_height_phone_255px" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="extra-color-1" data-delay="" data-hover-o="0.9" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 300px"><div class="inner-wrap"><span class="im-icon-wrap" data-color="extra-color-1"><span><svg height="50" role="presentation" version="1.1" viewbox="0 0 32 32" width="50" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.115 14.129c-0.296 0-0.567-0.197-0.643-0.5-0.611-2.351-0.272-4.799 0.957-6.891s3.201-3.584 5.552-4.195c0.355-0.089 0.72 0.121 0.813 0.475 0.091 0.36-0.121 0.721-0.477 0.815-2.005 0.523-3.687 1.792-4.736 3.58-1.049 1.787-1.339 3.875-0.817 5.88 0.092 0.36-0.121 0.721-0.476 0.813-0.061 0.015-0.117 0.023-0.173 0.023zM10.735 3.452c-0.047 0-0.092-0.005-0.139-0.016l-2.917-0.62c-0.361-0.077-0.591-0.429-0.515-0.788 0.079-0.361 0.431-0.584 0.792-0.517l2.917 0.62c0.361 0.080 0.589 0.431 0.513 0.791-0.069 0.317-0.345 0.531-0.652 0.531zM4.049 14.835c-0.185 0-0.369-0.079-0.501-0.228l-1.961-2.245c-0.241-0.279-0.215-0.7 0.063-0.944 0.277-0.243 0.697-0.213 0.941 0.065l1.961 2.247c0.244 0.277 0.215 0.699-0.063 0.941-0.128 0.109-0.285 0.164-0.44 0.164zM4.049 14.835c-0.185 0-0.369-0.079-0.501-0.228-0.243-0.277-0.215-0.696 0.063-0.941l2.247-1.964c0.276-0.241 0.696-0.213 0.941 0.065 0.241 0.276 0.215 0.696-0.063 0.94l-2.247 1.964c-0.128 0.109-0.285 0.164-0.44 0.164zM10.113 6.368c-0.044 0-0.091-0.005-0.139-0.017-0.36-0.079-0.589-0.431-0.512-0.789l0.619-2.917c0.077-0.361 0.431-0.581 0.791-0.516 0.361 0.079 0.589 0.432 0.512 0.791l-0.619 2.919c-0.067 0.316-0.344 0.531-0.652 0.531zM21.912 13.999c-0.368 0-0.667-0.3-0.667-0.667v-2.733c0-0.687-0.611-1.267-1.333-1.267s-1.333 0.568-1.333 1.24v2.76c0 0.367-0.3 0.667-0.667 0.667-0.368 0-0.667-0.3-0.667-0.667v-2.76c0-1.417 1.195-2.573 2.667-2.573 1.445 0 2.667 1.193 2.667 2.6v2.733c0 0.367-0.3 0.667-0.667 0.667zM25.912 15.332c-0.368 0-0.667-0.3-0.667-0.667v-3.245c0-0.689-0.611-1.268-1.333-1.268s-1.333 0.568-1.333 1.24v3.273c0 0.367-0.3 0.667-0.667 0.667-0.368 0-0.667-0.3-0.667-0.667v-3.273c0-1.417 1.195-2.573 2.667-2.573 1.445 0 2.667 1.193 2.667 2.601v3.245c0 0.367-0.3 0.667-0.667 0.667zM24.493 31.999h-7.532c-3.164 0-5.411-4.885-7.389-9.195-0.751-1.631-1.457-3.169-2.045-4-0.864-1.213-0.813-2.719 0.123-3.656 1.040-1.039 2.704-1.068 3.711-0.063l1.885 1.94v-14.424c0-1.411 1.221-2.6 2.667-2.6 1.471 0 2.667 1.153 2.667 2.573v8.092c0 0.365-0.3 0.667-0.667 0.667-0.368 0-0.667-0.301-0.667-0.667v-8.092c0-0.672-0.611-1.241-1.333-1.241s-1.333 0.583-1.333 1.267v16.065c0 0.271-0.165 0.516-0.417 0.617-0.251 0.103-0.539 0.043-0.728-0.151l-3.023-3.109c-0.472-0.472-1.307-0.443-1.819 0.068-0.545 0.547-0.372 1.391 0.021 1.943 0.661 0.932 1.361 2.453 2.171 4.213 1.633 3.555 3.867 8.419 6.177 8.419h7.397c0.76-0.336 4.887-2.361 4.887-6.697v-10.7c0-0.689-0.611-1.267-1.333-1.267s-1.333 0.568-1.333 1.24v2.759c0 0.365-0.3 0.667-0.667 0.667-0.368 0-0.667-0.301-0.667-0.667v-2.759c0-1.417 1.195-2.575 2.667-2.575 1.445 0 2.667 1.195 2.667 2.6v10.7c0 5.587-5.597 7.888-5.836 7.981-0.080 0.035-0.163 0.051-0.249 0.051z"></path>
+</svg></span></span>
+<h5 class="fw-700">인공지능 (AI) 및 머신러닝</h5>
+<div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 15px;"></div></div>
+<p data-i18n="services.우리의_기술은_ai와_머신러닝을_활용하여_사용자_데이터를_분석하고_예측하는_능력을_강화합니">우리의 기술은 AI와 머신러닝을 활용하여 사용자 데이터를 분석하고 예측하는 능력을 강화합니다.</p></div></div> </div> </div></div></div></div><div class="cell"><div class="inner-wrap-outer"><div class="inner-wrap"><div class="nectar-fancy-box min_height_tablet_275px min_height_phone_255px" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="extra-color-1" data-delay="" data-hover-o="0.9" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 300px"><div class="inner-wrap"><span class="im-icon-wrap" data-color="extra-color-1"><span><svg height="50" role="presentation" version="1.1" viewbox="0 0 32 32" width="50" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.487 12.745c-0.139 0-0.277-0.001-0.417-0.007-0.367-0.012-0.655-0.32-0.643-0.688 0.012-0.369 0.344-0.649 0.688-0.645 1.639 0.055 4.58-0.204 5.972-2.545 0.188-0.317 0.595-0.42 0.915-0.231 0.316 0.189 0.42 0.597 0.232 0.913-1.221 2.048-3.665 3.203-6.747 3.203zM16.785 12.739c-0.313 0-0.593-0.224-0.655-0.543-0.096-0.519-0.551-3.169 0.108-4.415 0.357-0.669 1.365-0.601 3.040-0.489 0.752 0.049 2.011 0.133 2.3 0 0.040-0.097-0.055-0.935-0.12-1.488-0.069-0.609-0.148-1.299-0.112-1.977 0.021-0.368 0.344-0.651 0.701-0.631 0.368 0.020 0.649 0.335 0.631 0.701-0.029 0.567 0.039 1.171 0.105 1.755 0.117 1.028 0.22 1.917-0.239 2.528-0.453 0.605-1.516 0.564-3.356 0.441-0.599-0.040-1.468-0.096-1.841-0.051-0.235 0.732-0.096 2.364 0.092 3.38 0.068 0.36-0.169 0.709-0.532 0.777-0.040 0.008-0.083 0.011-0.123 0.011zM24.619 15.353c-0.329 0-0.615-0.243-0.66-0.577-0.009-0.073-0.241-1.793-0.128-2.951 0.035-0.367 0.355-0.635 0.728-0.6 0.367 0.036 0.636 0.361 0.599 0.728-0.097 1.004 0.12 2.627 0.123 2.643 0.049 0.365-0.207 0.701-0.571 0.751-0.031 0.005-0.061 0.007-0.091 0.007zM16.591 16.668c-1.64 0-5.301-4.373-5.956-5.684-0.809-1.617-1.219-4.18-1.219-7.616 0-0.368 0.299-0.667 0.667-0.667 0.367 0 0.667 0.299 0.667 0.667 0 3.183 0.372 5.609 1.079 7.020 0.744 1.485 4 4.861 4.773 4.947 0.368 0 0.663 0.299 0.663 0.667-0.003 0.368-0.305 0.667-0.673 0.667zM7.397 12.739c-0.345 0-0.637-0.265-0.664-0.615-0.079-1.005-1.24-2.087-2.363-3.132-0.499-0.464-1.015-0.944-1.453-1.433-0.247-0.275-0.223-0.695 0.052-0.941 0.271-0.245 0.693-0.224 0.94 0.051 0.4 0.444 0.871 0.884 1.369 1.348 1.309 1.219 2.665 2.479 2.784 4.004 0.028 0.367-0.245 0.688-0.612 0.716-0.019 0.003-0.035 0.003-0.053 0.003zM12.533 19.376c-0.368 0-0.667-0.299-0.667-0.667 0-2.253 1.099-4.221 1.879-4.897 0.277-0.243 0.697-0.213 0.939 0.065 0.243 0.277 0.212 0.699-0.067 0.94-0.477 0.416-1.417 2.035-1.417 3.891 0 0.371-0.299 0.668-0.667 0.668zM23.369 29.989h-2.667c-0.368 0-0.667-0.3-0.667-0.667v-6c0-2.917-2.741-4-10.111-4h-2.755c-2.799 0-5.251-1.457-6.399-3.805-1.189-2.428-0.9-5.164 0.776-7.316 3.104-3.993 8.003-6.192 13.795-6.192 7.631 0 13.871 4.059 16.289 10.591 0.584 1.577 0.361 3.281-0.608 4.679-0.917 1.317-2.432 2.044-4.263 2.044-1.016 0-2.723 0.433-2.723 3.333v6.667c-0.003 0.368-0.301 0.667-0.669 0.667zM21.369 28.656h1.333v-6c0-3.441 2.093-4.667 4.056-4.667 1.383 0 2.507-0.524 3.168-1.472 0.728-1.048 0.889-2.275 0.453-3.452-2.22-5.996-7.981-9.721-15.039-9.721-5.369 0-9.896 2.016-12.743 5.675-1.355 1.743-1.589 3.953-0.629 5.913 0.936 1.915 2.88 3.057 5.2 3.057h2.755c5.536 0 11.444 0.415 11.444 5.333v5.333zM15.369 5.323c-0.368 0-0.667-0.299-0.667-0.667v-1.333c0-0.368 0.299-0.667 0.667-0.667 0.367 0 0.667 0.299 0.667 0.667v1.333c0 0.368-0.299 0.667-0.667 0.667zM2.443 17.42c-0.165 0-0.331-0.060-0.46-0.184-0.267-0.252-0.277-0.675-0.025-0.944 1.007-1.057 2.38-2.272 4.079-2.272 0.367 0 0.667 0.299 0.667 0.667 0 0.369-0.3 0.667-0.667 0.667-1.192 0-2.288 0.993-3.111 1.859-0.131 0.14-0.307 0.208-0.483 0.208zM24.24 20.409c-0.132 0-0.263-0.039-0.379-0.12-1.035-0.719-3.74-2.909-3.823-4.361-0.023-0.368 0.257-0.681 0.627-0.704 0.364-0.023 0.683 0.259 0.704 0.627 0.028 0.505 1.535 2.147 3.252 3.345 0.304 0.209 0.377 0.625 0.167 0.927-0.131 0.187-0.337 0.287-0.548 0.287z"></path>
+</svg></span></span>
+<h5 class="fw-700" data-i18n="content_en.iot">IoT</h5>
+<div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 15px;"></div></div>
+<p data-i18n="contact.iot_기술을_통해_다양한_디바이스와_연결하여_실시간_데이터_수집_및_모니터링을_수행합니다">IoT 기술을 통해 다양한 디바이스와 연결하여 실시간 데이터 수집 및 모니터링을 수행합니다. 사용자 건강을 추적하고, 자동화된 솔루션을 제공합니다.</p></div></div> </div> </div></div></div></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-section" data-column-margin="default" data-midnight="dark" data-top-percent="5%" id="fws_69299d195a6f9" style="padding-top: calc(100vw * 0.05); padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col nectar-sticky-column no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading" data-i18n="content_en.research_areas" style="text-align: left;font-family:Montserrat;font-weight:700;font-style:normal">Research Areas</h6>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-8 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-split-heading font_line_height_1-5" data-align="default" data-animation-delay="0" data-animation-offset="" data-animation-type="line-reveal-by-space" data-custom-font-size="false" data-i18n="content_ko.우리가_수행한_project들은_단순한_이론을_넘어서_실제로_실행되어_눈에_띄는_성과를_창" data-m-align="inherit" data-m-rm-animation="" data-stagger="" data-text-effect="default"><h3 data-i18n="content_ko.우리가_수행한_project들은_단순한_이론을_넘어서_실제로_실행되어_눈에_띄는_성과를_창" style="max-width: 900px;">우리가 수행한 Project들은 단순한 이론을 넘어서, 실제로 실행되어 눈에 띄는 성과를 창출했습니다.</h3></div><div class="divider-wrap" data-alignment="default"><div class="divider" style="height: 30px;"></div></div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top" data-column-margin="default" data-midnight="dark" id="fws_69299d195b455" style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="wpb_gallery wpb_content_element clearfix">
+<div class="wpb_wrapper"><div class="wpb_gallery_slidesflickity_static_height_style" data-interval="5" data-onclick="link_image"><style>.wpb_gallery_slidesflickity_static_height_style .nectar-flickity.instace-69299d195cc14:not(.masonry) .flickity-slider .cell img {
+      height: 60vh;
+    }
+    @media only screen and (max-width: 1300px) {
+      .wpb_gallery_slidesflickity_static_height_style .nectar-flickity.instace-69299d195cc14:not(.masonry) .flickity-slider .cell img {
+        height: 70vh;
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      .wpb_gallery_slidesflickity_static_height_style .nectar-flickity.instace-69299d195cc14:not(.masonry) .flickity-slider .cell img {
+        height: 40vh;
+      }
+    }
+    @media only screen and (max-width: 690px) {
+      .wpb_gallery_slidesflickity_static_height_style .nectar-flickity.instace-69299d195cc14:not(.masonry) .flickity-slider .cell img {
+        height: 250px;
+      }
+    }</style><div class="nectar-flickity not-initialized instace-69299d195cc14 drag-indicator-only" data-autoplay="" data-autoplay-dur="" data-controls="touch_total" data-drag-scale="" data-free-scroll="" data-indicator-bg="#29adb2" data-indicator-icon="#ffffff" data-overflow="hidden" data-shadow="none" data-spacing="20px" data-touch-icon-color="default" data-wrap="wrap"><div class="flickity-viewport"> <div class="flickity-slider"><div class="cell" data-lazy="false"><div class="nectar-el-parallax-scroll" data-scroll-animation="true" data-scroll-animation-intensity="-1.15" data-scroll-animation-lerp="1" data-scroll-animation-mobile="true"><div class="vc_column-inner"><div class="img-wrap"></div></div></div><a class="entire-slide-link" href="../index.html%3Fp=8101.html"></a></div><div class="cell" data-lazy="false"><div class="nectar-el-parallax-scroll" data-scroll-animation="true" data-scroll-animation-intensity="-1.15" data-scroll-animation-lerp="1" data-scroll-animation-mobile="true"><div class="vc_column-inner"><div class="img-wrap"><img alt="" class="skip-lazy nectar-lazy attachment-large" decoding="async" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../wp-content/uploads/2024/12/bg-2-1024x683.jpg" srcset="../wp-content/uploads/2024/12/bg-2-1024x683.jpg 1024w, ../wp-content/uploads/2024/12/bg-2-300x200.jpg 300w, ../wp-content/uploads/2024/12/bg-2-768x512.jpg 768w, ../wp-content/uploads/2024/12/bg-2-1536x1024.jpg 1536w, ../wp-content/uploads/2024/12/bg-2-900x600.jpg 900w, ../wp-content/uploads/2024/12/bg-2.jpg 1920w" title="bg-2" width="1024"/></div></div></div><a class="entire-slide-link" href="../wp-content/uploads/2024/12/bg-2.jpg"></a></div><div class="cell" data-lazy="false"><div class="nectar-el-parallax-scroll" data-scroll-animation="true" data-scroll-animation-intensity="-1.15" data-scroll-animation-lerp="1" data-scroll-animation-mobile="true"><div class="vc_column-inner"><div class="img-wrap"></div></div></div><a class="entire-slide-link" href="../index.html%3Fp=8101.html"></a></div><div class="cell" data-lazy="false"><div class="nectar-el-parallax-scroll" data-scroll-animation="true" data-scroll-animation-intensity="-1.15" data-scroll-animation-lerp="1" data-scroll-animation-mobile="true"><div class="vc_column-inner"><div class="img-wrap"><img alt="" class="skip-lazy nectar-lazy attachment-large" decoding="async" height="684" sizes="(max-width: 1024px) 100vw, 1024px" src="../wp-content/uploads/2024/12/img-14-1024x684.jpg" srcset="../wp-content/uploads/2024/12/img-14-1024x684.jpg 1024w, ../wp-content/uploads/2024/12/img-14-300x200.jpg 300w, ../wp-content/uploads/2024/12/img-14-768x513.jpg 768w, ../wp-content/uploads/2024/12/img-14-1536x1026.jpg 1536w, ../wp-content/uploads/2024/12/img-14-900x600.jpg 900w, ../wp-content/uploads/2024/12/img-14.jpg 1920w" title="img-14" width="1024"/></div></div></div><a class="entire-slide-link" href="../wp-content/uploads/2024/12/img-14.jpg"></a></div></div></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-section" data-bottom-percent="10%" data-column-margin="default" data-midnight="dark" data-top-percent="5%" id="process-custom" style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.10); "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop" style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col nectar-sticky-column no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading" data-i18n="content_en.process" style="text-align: left;font-family:Montserrat;font-weight:700;font-style:normal">Process</h6>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-8 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-icon-list" data-animate="true" data-columns="3" data-direction="vertical" data-icon-color="default" data-icon-size="small" data-icon-style="border"><div class="nectar-icon-list-item font_size_desktop_24px font_size_tablet_3vw font_size_phone_5vw"><div class="list-icon-holder" data-icon_type="numerical"><span>1</span></div><div class="content"><h4 data-i18n="contact.아이디어_구상_및_요구_사항_분석">아이디어 구상 및 요구 사항 분석</h4>고객의 니즈와 시장의 요구 사항을 철저히 분석하여, 개발할 제품이나 서비스의 방향성을 설정합니다.</div></div><div class="nectar-icon-list-item font_size_desktop_24px font_size_tablet_3vw font_size_phone_5vw"><div class="list-icon-holder" data-icon_type="numerical"><span>2</span></div><div class="content"><h4 data-i18n="research.설계_및_프로토타입_개발">설계 및 프로토타입 개발</h4>사용자 경험(UX)을 고려한 직관적인 설계를 통해 제품의 프로토타입을 개발합니다.</div></div><div class="nectar-icon-list-item font_size_desktop_24px font_size_tablet_3vw font_size_phone_5vw"><div class="list-icon-holder" data-icon_type="numerical"><span>3</span></div><div class="content"><h4 data-i18n="contact.개발_및_구현">개발 및 구현</h4>실제 제품 개발을 통해 기능을 구현하고, 고도화된 기술을 적용하여 시스템을 완성합니다.</div></div><div class="nectar-icon-list-item font_size_desktop_24px font_size_tablet_3vw font_size_phone_5vw"><div class="list-icon-holder" data-icon_type="numerical"><span>4</span></div><div class="content"><h4 data-i18n="content_ko.품질_보증_및_테스트">품질 보증 및 테스트</h4>자동화된 유닛 테스트, 통합 테스트, 사용자 테스트 등 다양한 방식으로 제품을 검증합니다.</div></div><div class="nectar-icon-list-item font_size_desktop_24px font_size_tablet_3vw font_size_phone_5vw"><div class="list-icon-holder" data-icon_type="numerical"><span>5</span></div><div class="content"><h4 data-i18n="contact.출시_및_유지_보수">출시 및 유지 보수</h4>제품 배포 후 유지 보수 및 버전 업그레이드를 진행하여, 사용자가 계속해서 최적의 환경을 경험할 수 있도록 지원합니다.</div></div></div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+</div></div>
+<div class="wpb_row vc_row-fluid vc_row full-width-section mobile-disable-bg-image-animation" data-bottom-percent="8%" data-column-margin="default" data-midnight="light" data-top-percent="10%" id="fws_69299d195f186" style="padding-top: calc(100vw * 0.10); padding-bottom: calc(100vw * 0.08); "><div class="row-bg-wrap" data-bg-animation="zoom-out-slow" data-bg-animation-delay="" data-bg-overlay="true"><div class="inner-wrap row-bg-layer using-image"><div class="row-bg viewport-desktop using-image" style="background-image: url(../wp-content/uploads/2024/12/bg-2.jpg); background-position: center center; background-repeat: no-repeat; "></div></div><div class="row-bg-overlay row-bg-layer" style="background-color:#111111;  opacity: 0.5; "></div></div><div class="row_col_wrap_12 col span_12 light left">
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col nectar-sticky-column no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading" data-i18n="content_en.ouick" style="text-align: left;font-family:Montserrat;font-weight:700;font-style:normal">Ouick</h6>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-8 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-split-heading" data-align="default" data-animation-delay="0" data-animation-offset="" data-animation-type="line-reveal-by-space" data-custom-font-size="false" data-i18n="content_ko.자주_묻는_질문과_project를_확인하고_문의하세요" data-m-align="inherit" data-m-rm-animation="" data-stagger="" data-text-effect="default"><h3 data-i18n="content_ko.자주_묻는_질문과_project를_확인하고_문의하세요" style="max-width: 900px;">자주 묻는 질문과 Project를 확인하고, 문의하세요.</h3></div><div class="wpb_row vc_row-fluid vc_row inner_row" data-column-margin="30px" data-midnight="" id="fws_69299d1961eb9" style="padding-top: 50px; "><div class="row-bg-wrap"> <div class="row-bg"></div> </div><div class="row_col_wrap_12_inner col span_12 left">
+<div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone mobile-disable-entrance-animation" data-animation="grow-in" data-bg-color="" data-bg-opacity="1" data-delay="100" data-has-bg-color="false" data-padding-pos="all" data-t-w-inherits="small_desktop">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-fancy-box" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="accent-color" data-delay="" data-hover-o="default" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 120px"><div class="inner-wrap"><i class="icon-default-style fa fa-sitemap" data-color="accent-color" style="font-size: 40px!important; line-height: 40px!important;"></i>
+<h5 data-i18n="content_en.project">Project</h5>
+</div></div> <a class="box-link" href="../index.html%3Fp=8101.html#"></a></div> </div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone mobile-disable-entrance-animation" data-animation="grow-in" data-bg-color="" data-bg-opacity="1" data-delay="200" data-has-bg-color="false" data-padding-pos="all" data-t-w-inherits="small_desktop">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-fancy-box" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="accent-color" data-delay="" data-hover-o="default" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 120px"><div class="inner-wrap"><i class="icon-default-style fa fa-exclamation-circle" data-color="accent-color" style="font-size: 40px!important; line-height: 40px!important;"></i>
+<h5 data-i18n="content_ko.자주하는질문">자주하는질문</h5>
+</div></div> <a class="box-link" href="../index.html%3Fp=8101.html#"></a></div> </div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column has-animation no-extra-padding inherit_tablet inherit_phone mobile-disable-entrance-animation" data-animation="grow-in" data-bg-color="" data-bg-opacity="1" data-delay="300" data-has-bg-color="false" data-padding-pos="all" data-t-w-inherits="small_desktop">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="nectar-fancy-box" data-alignment="center" data-animation="" data-border="true" data-border-radius="10px" data-box-color-opacity="1" data-color="accent-color" data-delay="" data-hover-o="default" data-style="color_box_hover"><div class="box-inner-wrap"><div class="box-bg" role="presentation"></div> <div class="inner" style="min-height: 120px"><div class="inner-wrap"><i class="icon-default-style fa fa-question" data-color="accent-color" style="font-size: 40px!important; line-height: 40px!important;"></i>
+<h5 data-i18n="buttons.submit_inquiry">문의하기</h5>
+</div></div> <a class="box-link" href="../index.html%3Fp=8101.html#"></a></div> </div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-2 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="nectar-global-section before-footer" role="contentinfo"><div class="container normal-container row">
+<div class="wpb_row vc_row-fluid vc_row full-width-section top_padding_tablet_10pct bottom_padding_tablet_20pct" data-bottom-percent="5%" data-column-margin="default" data-midnight="light" data-top-percent="5%" id="fws_69299d19639e5" style="padding-top: calc(100vw * 0.05); padding-bottom: calc(100vw * 0.05); "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer"><div class="row-bg viewport-desktop using-bg-color" style="background-color: #111111; "></div></div></div><div class="row_col_wrap_12 col span_12 light left">
+<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone border_style_solid" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<div class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top" data-column-margin="default" data-midnight="" id="fws_69299d1963e4f" style=""><div class="row-bg-wrap"> <div class="row-bg"></div> </div><div class="row_col_wrap_12_inner col span_12 left">
+<div class="vc_col-sm-6 vc_col-md-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="all" data-t-w-inherits="small_desktop">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading fw-700" data-i18n="content_en.company_info" style="text-align: left;font-family:Montserrat;font-weight:400;font-style:normal">Company Info</h6>
+<div class="wpb_raw_code wpb_raw_html wpb_content_element vc_custom_1723445743795">
+<div class="wpb_wrapper">
+<div class="footer-info-text">
+<div class="list">
+<p data-i18n="content_ko.상호">상호</p><p data-i18n="content_en.diagnox_1">DiagnoX</p>
+</div>
+<div class="list">
+<p data-i18n="content_ko.대표명">대표명</p><p data-i18n="content_ko.디펄스">디펄스</p>
+</div>
+<div class="list">
+<p data-i18n="contact.주소">주소</p><p data-i18n="contact.서울특별시_중구_세종대로_110">서울특별시 중구 세종대로 110 </p>
+</div>
+<div class="list">
+<p data-i18n="forms.phone">전화번호</p><p>1234-5678</p>
+</div>
+<div class="list">
+<p data-i18n="content_ko.사업자등록번호">사업자등록번호</p><p>000-12-34567</p>
+</div>
+<div class="list">
+<p data-i18n="content_ko.팩스">팩스</p><p>012-435-6789</p>
+</div>
+</div>
+</div>
+</div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<div style="font-size: 15px;">© <span class="nectar-current-year" data-i18n="content_en.2025">2025</span> All rights reserved.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vc_col-sm-6 vc_col-md-6 wpb_column column_container vc_column_container col child_column padding-10-percent inherit_tablet no-extra-padding_phone" data-animation="" data-bg-color="" data-bg-opacity="1" data-delay="0" data-has-bg-color="false" data-padding-pos="left" data-t-w-inherits="small_desktop">
+<div class="vc_column-inner">
+<div class="wpb_wrapper">
+<h6 class="vc_custom_heading vc_do_custom_heading fw-700" data-i18n="content_en.connect" style="text-align: left;font-family:Montserrat;font-weight:400;font-style:normal">Connect</h6><div class="nectar-cta border_color_777777 alignment_tablet_default alignment_phone_default display_tablet_inherit display_phone_inherit font_size_desktop_16px" data-alignment="left" data-color="default" data-display="inline" data-style="underline" data-text-color="custom" data-using-bg="false" style="margin-right: 30px; margin-bottom: 10px; "><p style="color: #ffffff;"> <span class="link_wrap" data-i18n="content_en.instagram"><a class="link_text" data-i18n="content_en.instagram" href="../index.html%3Fp=8101.html" role="button" style="border-color: #ffffff;">Instagram</a></span></p></div><div class="nectar-cta alignment_tablet_default alignment_phone_default display_tablet_inherit display_phone_inherit font_size_desktop_16px" data-alignment="left" data-color="default" data-display="inline" data-style="underline" data-text-color="custom" data-using-bg="false" style="margin-bottom: 10px; "><p style="color: #ffffff;"> <span class="link_wrap" data-i18n="content_en.youtube" style="padding-right: 25px; "><a class="link_text" data-i18n="content_en.youtube" href="../index.html%3Fp=8101.html" role="button" style="border-color: #ffffff;">YouTube</a></span></p></div><div class="nectar-cta alignment_tablet_default alignment_phone_default display_tablet_inherit display_phone_inherit font_size_desktop_16px" data-alignment="left" data-color="default" data-display="inline" data-style="underline" data-text-color="custom" data-using-bg="false" style="margin-bottom: 10px; "><p style="color: #ffffff;"> <span class="link_wrap" data-i18n="content_en.our_location" style="padding-right: 25px; "><a class="link_text" data-i18n="content_en.our_location" href="../index.html%3Fp=8101.html" role="button" style="border-color: #ffffff;">Our Location</a></span></p></div><div class="nectar-cta alignment_tablet_default alignment_phone_default display_tablet_inherit display_phone_inherit font_size_desktop_16px" data-alignment="left" data-color="default" data-display="inline" data-style="underline" data-text-color="custom" data-using-bg="false" style="margin-bottom: 10px; "><p style="color: #ffffff;"> <span class="link_wrap" data-i18n="content_en.linkedin"><a class="link_text" data-i18n="content_en.linkedin" href="../index.html%3Fp=8101.html" role="button" style="border-color: #ffffff;">LinkedIn</a></span></p></div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div></div>
+<style data-type="vc_custom-css">.footer-info-text {padding-bottom: 10px;}
+.footer-info-text div.list { display: inline-block; margin-right: 16px;  }
+.footer-info-text div.list > p {font-size: 15px;margin-bottom:0; padding-bottom:0; display:inline;}
+.footer-info-text div.list > p:first-child {  opacity:.6 ; margin-right: 4px; font-weight:500 }
+.footer-info-text div.list > p:last-child { }</style><style data-type="vc_shortcodes-default-css" type="text/css">.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}</style><style data-type="vc_shortcodes-custom-css" type="text/css">.vc_custom_1723445743795{margin-bottom: 0px !important;}</style><style data-type="vc_custom-css">.footer-info-text {padding-bottom: 10px;}
+.footer-info-text div.list { display: inline-block; margin-right: 16px;  }
+.footer-info-text div.list > p {font-size: 15px;margin-bottom:0; padding-bottom:0; display:inline;}
+.footer-info-text div.list > p:first-child {  opacity:.6 ; margin-right: 4px; font-weight:500 }
+.footer-info-text div.list > p:last-child { }</style></div></div></div>
+<div data-bg-img-overlay="0.8" data-cols="4" data-copyright-line="false" data-custom-color="false" data-disable-copyright="true" data-full-width="false" data-link-hover="default" data-matching-section-color="true" data-midnight="light" data-using-bg-img="false" data-using-widget-area="false" id="footer-outer">
+</div><!--/footer-outer-->
+</div> <!--/ajax-content-wrap-->
+<a aria-label="Back to top" class="mobile-disabled" data-i18n-aria="navigation.back_to_top" href="../index.html%3Fp=8101.html#" id="to-top" role="button"><i class="fa fa-angle-up" role="presentation"></i></a>
+</div></div><!--/ocm-effect-wrap--><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/salient-child\/*","\/wp-content\/themes\/salient\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="wpb-modifications"> window.wpbCustomElement = 1; </script><link href="https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&amp;ver=8.4.1" id="vc_google_fonts_montserratregular700-css" media="all" rel="stylesheet" type="text/css"/>
+<link data-no-optimize="" data-noptimize="" data-nowprocket="" data-pagespeed-no-defer="" data-wpacu-skip="" href="../wp-content/themes/salient/css/build/style-non-critical.css%3Fver=17.3.0.css" id="main-styles-non-critical-css" media="all" rel="stylesheet" type="text/css"/>
+<link data-no-optimize="" data-noptimize="" data-nowprocket="" data-pagespeed-no-defer="" data-wpacu-skip="" href="../wp-content/themes/salient/css/build/plugins/jquery.fancybox.css%3Fver=3.3.1.css" id="fancyBox-css" media="all" rel="stylesheet" type="text/css"/>
+<link data-no-optimize="" data-noptimize="" data-nowprocket="" data-pagespeed-no-defer="" data-wpacu-skip="" href="../wp-content/themes/salient/css/build/off-canvas/core.css%3Fver=17.3.0.css" id="nectar-ocm-core-css" media="all" rel="stylesheet" type="text/css"/>
+<link data-no-optimize="" data-noptimize="" data-nowprocket="" data-pagespeed-no-defer="" data-wpacu-skip="" href="../wp-content/themes/salient/css/build/off-canvas/simple-dropdown.css%3Fver=17.3.0.css" id="nectar-ocm-simple-css" media="all" rel="stylesheet" type="text/css"/>
+<script id="wp-hooks-js" src="../wp-includes/js/dist/hooks.min.js%3Fver=4d63a3d491d11ffd8ac6" type="text/javascript"></script>
+<script id="wp-i18n-js" src="../wp-includes/js/dist/i18n.min.js%3Fver=5e580eb46a90c2b997e6" type="text/javascript"></script>
+<script id="wp-i18n-js-after" type="text/javascript">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script id="swv-js" src="../wp-content/plugins/contact-form-7/includes/swv/js/index.js%3Fver=6.1.3" type="text/javascript"></script>
+<script id="contact-form-7-js-translations" type="text/javascript">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-11-21 08:13:13+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ko_KR"},"This contact form is placed in the wrong place.":["\uc774 \ubb38\uc758 \uc591\uc2dd\uc774 \uc798\ubabb\ub41c \uc704\uce58\uc5d0 \ubc30\uce58\ub418\uc5c8\uc2b5\ub2c8\ub2e4."],"Error:":["\uc624\ub958:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script id="contact-form-7-js-before" type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/mwpdemo51703.mycafe24.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+/* ]]> */
+</script>
+<script id="contact-form-7-js" src="../wp-content/plugins/contact-form-7/includes/js/index.js%3Fver=6.1.3" type="text/javascript"></script>
+<script id="jquery-easing-js" src="../wp-content/themes/salient/js/build/third-party/jquery.easing.min.js%3Fver=1.3" type="text/javascript"></script>
+<script id="jquery-mousewheel-js" src="../wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js%3Fver=3.1.13" type="text/javascript"></script>
+<script id="nectar_priority-js" src="../wp-content/themes/salient/js/build/priority.js%3Fver=17.3.0" type="text/javascript"></script>
+<script id="nectar-transit-js" src="../wp-content/themes/salient/js/build/third-party/transit.min.js%3Fver=0.9.9" type="text/javascript"></script>
+<script id="nectar-waypoints-js" src="../wp-content/themes/salient/js/build/third-party/waypoints.js%3Fver=4.0.2" type="text/javascript"></script>
+<script id="imagesLoaded-js" src="../wp-content/plugins/salient-portfolio/js/third-party/imagesLoaded.min.js%3Fver=4.1.4" type="text/javascript"></script>
+<script id="hoverintent-js" src="../wp-content/themes/salient/js/build/third-party/hoverintent.min.js%3Fver=1.9" type="text/javascript"></script>
+<script id="fancyBox-js" src="../wp-content/themes/salient/js/build/third-party/jquery.fancybox.js%3Fver=3.3.9" type="text/javascript"></script>
+<script id="anime-js" src="../wp-content/themes/salient/js/build/third-party/anime.min.js%3Fver=4.5.1" type="text/javascript"></script>
+<script id="flickity-js" src="../wp-content/themes/salient/js/build/third-party/flickity.js%3Fver=2.3.2" type="text/javascript"></script>
+<script id="stickykit-js" src="../wp-content/themes/salient/js/build/third-party/stickkit.js%3Fver=1.0" type="text/javascript"></script>
+<script id="superfish-js" src="../wp-content/themes/salient/js/build/third-party/superfish.js%3Fver=1.5.8" type="text/javascript"></script>
+<script id="nectar-frontend-js-extra" type="text/javascript">
+/* <![CDATA[ */
+var nectarLove = {"ajaxurl":"https:\/\/mwpdemo51703.mycafe24.com\/wp-admin\/admin-ajax.php","postID":"8101","rooturl":"https:\/\/mwpdemo51703.mycafe24.com","disqusComments":"false","loveNonce":"1f3767dcdb","mapApiKey":""};
+var nectarOptions = {"delay_js":"false","smooth_scroll":"false","smooth_scroll_strength":"50","quick_search":"false","react_compat":"disabled","header_entrance":"false","body_border_func":"default","disable_box_roll_mobile":"off","body_border_mobile":"0","dropdown_hover_intent":"default","simplify_ocm_mobile":"0","mobile_header_format":"default","ocm_btn_position":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default","woo_using_cart_addons":"false","view_transitions_effect":""};
+var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","close":"Close"};
+/* ]]> */
+</script>
+<script id="nectar-frontend-js" src="../wp-content/themes/salient/js/build/init.js%3Fver=17.3.0" type="text/javascript"></script>
+<script id="touchswipe-js" src="../wp-content/plugins/salient-core/js/third-party/touchswipe.min.js%3Fver=1.0" type="text/javascript"></script>
+<script id="select2-js" src="../wp-content/themes/salient/js/build/third-party/select2.min.js%3Fver=4.0.1" type="text/javascript"></script>
+<script id="wpb_composer_front_js-js" src="../wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js%3Fver=8.4.1" type="text/javascript"></script>
+<script></script><script src="/i18n-loader.js?v=13" defer></script></body>
+</html>
+<!-- Dynamic page generated in 0.460 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2025-11-28 13:01:13 -->
+<!-- super cache -->

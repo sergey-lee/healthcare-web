@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Switcher Debug Test</title>
+    <link rel="stylesheet" href="/lang-switcher.css">
+    <style>
+        body {
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+        .debug-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+        .debug-info h3 {
+            margin-top: 0;
+        }
+        .debug-info pre {
+            background: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        nav {
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Language Switcher Debug Test</h1>
+    
+    <nav>
+        <ul class="buttons sf-menu" style="list-style: none; margin: 0; padding: 0;">
+            <li id="lang-switcher">
+                <div class="lang-switcher-wrap">
+                    <a href="#" class="lang-current">
+                        <span class="lang-flag">🇺🇸</span>
+                        <span class="lang-name">English</span>
+                    </a>
+                    <ul class="lang-dropdown">
+                        <li><a href="#" data-lang="en"><span class="lang-flag">🇺🇸</span> English</a></li>
+                        <li><a href="#" data-lang="zh-TW"><span class="lang-flag">🇹🇼</span> 繁體中文</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="debug-info">
+        <h3>Debug Information:</h3>
+        <div id="debug-output"></div>
+    </div>
+
+    <script src="/lang-switcher.js"></script>
+    
+    <script>
+        // Debug logging
+        const debugOutput = document.getElementById('debug-output');
+        
+        function log(message) {
+            const time = new Date().toLocaleTimeString();
+            const div = document.createElement('div');
+            div.textContent = `[${time}] ${message}`;
+            debugOutput.appendChild(div);
+            console.log(message);
+        }
+
+        // Проверка после загрузки
+        setTimeout(() => {
+            log('Page loaded');
+            log('Current language from localStorage: ' + localStorage.getItem('preferred-language'));
+            log('window.langSwitcher exists: ' + (typeof window.langSwitcher !== 'undefined'));
+            
+            if (window.langSwitcher) {
+                log('Current language from switcher: ' + window.langSwitcher.getCurrentLang());
+                log('Available languages: ' + JSON.stringify(Object.keys(window.langSwitcher.getLanguages())));
+            }
+
+            // Проверка обработчиков событий
+            const switcher = document.getElementById('lang-switcher');
+            const button = switcher?.querySelector('.lang-current');
+            const dropdown = switcher?.querySelector('.lang-dropdown');
+            
+            log('Switcher element found: ' + !!switcher);
+            log('Button element found: ' + !!button);
+            log('Dropdown element found: ' + !!dropdown);
+            
+            if (dropdown) {
+                const links = dropdown.querySelectorAll('a');
+                log('Dropdown links count: ' + links.length);
+            }
+        }, 2000);
+
+        // Перехватить клики на dropdown
+        document.addEventListener('click', function(e) {
+            const target = e.target.closest('[data-lang]');
+            if (target) {
+                const lang = target.getAttribute('data-lang');
+                log('Clicked on language: ' + lang);
+            }
+        }, true);
+    </script>
+</body>
+</html>

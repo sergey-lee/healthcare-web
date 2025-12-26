@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i18n Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .success { color: green; }
+        .error { color: red; }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        #status {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 i18n System Test Page</h1>
+
+    <div class="test-section">
+        <h2>1. Тест загрузки скрипта</h2>
+        <p>Статус i18n: <span id="script-status">❓ Проверка...</span></p>
+    </div>
+
+    <div class="test-section">
+        <h2>2. Тест загрузки JSON</h2>
+        <p>Статус JSON: <span id="json-status">❓ Проверка...</span></p>
+        <button onclick="testJsonLoad()">Проверить JSON</button>
+    </div>
+
+    <div class="test-section">
+        <h2>3. Тест замены текста</h2>
+        <p>Оригинальный текст: <strong data-i18n="navigation.about">About</strong></p>
+        <p>Должно стать: <code>About</code> (из JSON)</p>
+        <button onclick="window.i18n.reload()">Применить переводы</button>
+    </div>
+
+    <div class="test-section">
+        <h2>4. Тест изменения значения</h2>
+        <p>Попробуйте изменить в i18n_categorized.json:</p>
+        <pre>{
+  "strings": {
+    "navigation": {
+      "about": "О НАС (ИЗМЕНЕНО!)"
+    }
+  }
+}</pre>
+        <p>После сохранения нажмите: <button onclick="window.i18n.reload()">Перезагрузить переводы</button></p>
+        <p>Результат: <strong data-i18n="navigation.about">About</strong></p>
+    </div>
+
+    <div class="test-section">
+        <h2>5. Тест других атрибутов</h2>
+        <p>Placeholder: <input data-i18n-placeholder="forms.email" placeholder="Email" /></p>
+        <p>Title: <span data-i18n-title="navigation.home" title="Home">Наведите мышку</span></p>
+    </div>
+
+    <div id="status">
+        <h3>Консоль:</h3>
+        <div id="console-output"></div>
+    </div>
+
+    <script>
+        // Перехват console.log для отображения на странице
+        const consoleOutput = document.getElementById('console-output');
+        const originalLog = console.log;
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            const message = args.join(' ');
+            consoleOutput.innerHTML += `<div>${message}</div>`;
+        };
+
+        // Проверка загрузки скрипта
+        setTimeout(() => {
+            const scriptStatus = document.getElementById('script-status');
+            if (typeof window.i18n !== 'undefined') {
+                scriptStatus.innerHTML = '<span class="success">✅ i18n загружен</span>';
+            } else {
+                scriptStatus.innerHTML = '<span class="error">❌ i18n НЕ загружен</span>';
+            }
+        }, 1000);
+
+        // Тест загрузки JSON
+        async function testJsonLoad() {
+            const jsonStatus = document.getElementById('json-status');
+            try {
+                const response = await fetch('/i18n_categorized.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    jsonStatus.innerHTML = `<span class="success">✅ JSON загружен (${Object.keys(data.strings || {}).length} категорий)</span>`;
+                    console.log('JSON data:', data);
+                } else {
+                    jsonStatus.innerHTML = `<span class="error">❌ Ошибка ${response.status}: ${response.statusText}</span>`;
+                }
+            } catch (error) {
+                jsonStatus.innerHTML = `<span class="error">❌ Ошибка: ${error.message}</span>`;
+            }
+        }
+
+        // Автоматическая проверка при загрузке
+        window.addEventListener('load', () => {
+            setTimeout(testJsonLoad, 1500);
+        });
+    </script>
+
+    <!-- i18n loader -->
+    <script src="/i18n-loader.js" defer></script>
+</body>
+</html>

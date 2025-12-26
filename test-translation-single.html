@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Single Translation</title>
+    <link rel="stylesheet" href="/lang-switcher.css">
+    <style>
+        body {
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+        }
+        nav {
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .debug {
+            background: #fff;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Translation: 암_연구</h1>
+    
+    <nav>
+        <ul class="buttons sf-menu" style="list-style: none; margin: 0; padding: 0;">
+            <li id="lang-switcher">
+                <div class="lang-switcher-wrap">
+                    <a href="#" class="lang-current">
+                        <span class="lang-flag">🇺🇸</span>
+                        <span class="lang-name">English</span>
+                    </a>
+                    <ul class="lang-dropdown">
+                        <li><a href="#" data-lang="en"><span class="lang-flag">🇺🇸</span> English</a></li>
+                        <li><a href="#" data-lang="zh-TW"><span class="lang-flag">🇹🇼</span> 繁體中文</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="test-section">
+        <h2>Test Element:</h2>
+        <div data-i18n="contact.암_연구" style="font-size: 24px; font-weight: bold; color: #333;">
+            암 연구
+        </div>
+    </div>
+
+    <div class="debug">
+        <h3>Debug Info:</h3>
+        <div id="debug-output"></div>
+        <button onclick="manualTest()" style="margin-top: 10px; padding: 10px 20px; cursor: pointer;">
+            Manual Test Translation
+        </button>
+    </div>
+
+    <script src="/i18n-loader.js"></script>
+    <script src="/lang-switcher.js"></script>
+    
+    <script>
+        const debugOutput = document.getElementById('debug-output');
+        
+        function log(message) {
+            const div = document.createElement('div');
+            div.textContent = message;
+            div.style.marginBottom = '5px';
+            debugOutput.appendChild(div);
+            console.log(message);
+        }
+
+        function manualTest() {
+            log('--- Manual Test Started ---');
+            
+            // Проверка window.i18n
+            if (window.i18n) {
+                log('✅ window.i18n exists');
+                const testString = window.i18n.getString('contact.암_연구');
+                log('Translation for "contact.암_연구": ' + testString);
+            } else {
+                log('❌ window.i18n not found');
+            }
+
+            // Проверка window.langSwitcher
+            if (window.langSwitcher) {
+                log('✅ window.langSwitcher exists');
+                log('Current language: ' + window.langSwitcher.getCurrentLang());
+            } else {
+                log('❌ window.langSwitcher not found');
+            }
+
+            // Проверка localStorage
+            log('localStorage language: ' + localStorage.getItem('preferred-language'));
+        }
+
+        // Автоматический тест через 2 секунды
+        setTimeout(manualTest, 2000);
+    </script>
+</body>
+</html>

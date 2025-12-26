@@ -1,0 +1,117 @@
+/**
+ * Language Switcher Styles
+ */
+
+#lang-switcher {
+    position: relative;
+    display: inline-block;
+}
+
+#lang-switcher .lang-switcher-wrap {
+    position: relative;
+}
+
+#lang-switcher .lang-current {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#lang-switcher .lang-current:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#lang-switcher .lang-flag {
+    font-size: 18px;
+    line-height: 1;
+}
+
+#lang-switcher .lang-name {
+    font-weight: 500;
+}
+
+#lang-switcher .lang-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 8px 0;
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 99999 !important; /* Очень высокий z-index для WordPress */
+    list-style: none;
+    margin: 0;
+    pointer-events: none; /* Отключить события когда скрыт */
+}
+
+#lang-switcher .lang-dropdown.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto; /* Включить события когда виден */
+}
+
+#lang-switcher .lang-dropdown li {
+    margin: 0;
+    padding: 0;
+}
+
+#lang-switcher .lang-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s ease;
+    cursor: pointer !important; /* Принудительно курсор-рука */
+}
+
+#lang-switcher .lang-dropdown a:hover {
+    background: #f5f5f5;
+}
+
+#lang-switcher .lang-dropdown .lang-flag {
+    font-size: 20px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    #lang-switcher .lang-name {
+        display: none;
+    }
+
+    #lang-switcher .lang-current {
+        padding: 8px 12px;
+    }
+
+    #lang-switcher .lang-dropdown {
+        right: auto;
+        left: 0;
+    }
+}
+
+/* Integration with WordPress theme */
+body.using-mobile-browser #lang-switcher {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Цвет кнопки будет установлен динамически через JavaScript
+   на основе цвета навигационных ссылок */
