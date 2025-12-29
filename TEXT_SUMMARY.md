@@ -52,7 +52,7 @@
 Исследовательский и медицинский контент
 - AI 기반 건강 데이터 분석 플랫폼 개발
 - 개인 맞춤형 건강 플랫폼 및 디지털 치료제
-- 건강한 삶을 위한 과학, 우리 모두를 위한 미래
+- Science for a Healthy Life, a Future for All
 - 만성질환 예방 및 AI 기반 건강 솔루션
 - 면역 강화 백신 개발
 
@@ -113,7 +113,7 @@
 
 ### 🎯 Видение и миссия
 - "과학으로 건강한 삶을 설계한다" - Design a healthy life with science
-- "건강한 삶을 위한 과학, 우리 모두를 위한 미래" - Science for a healthy life, a future for all of us
+- "Science for a Healthy Life, a Future for All" - Science for a healthy life, a future for all of us
 - "더 건강한 내일을 위한 혁신" - Innovation for a healthier tomorrow
 - "건강 혁신의 새로운 패러다임을 창조" - Creating a new paradigm of health innovation
 

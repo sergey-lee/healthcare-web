@@ -133,7 +133,7 @@ export interface I18nStrings {
 ### Исследовательский контент
 - AI 기반 건강 데이터 분석 플랫폼 개발
 - 개인 맞춤형 건강 플랫폼 및 디지털 치료제
-- 건강한 삶을 위한 과학, 우리 모두를 위한 미래
+- Science for a Healthy Life, a Future for All
 
 ## Использование
 

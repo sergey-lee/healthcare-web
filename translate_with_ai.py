@@ -43,7 +43,7 @@ def translate_korean_to_english(text):
 
         "건강의학연구센터 설립": "Healthcare Research Center Establishment",
         "건강의학연구센터는 어떤 곳인가요?": "What is the Healthcare Research Center?",
-        "건강의학연구센터를 찾아주신 여러분께 진심으로 감사드립니다.": "Thank you sincerely for visiting the Healthcare Research Center.",
+        "At Wellio, our mission is to empower people with precise and painless glucose monitoring. I am proud to guide our talented team toward innovation that transforms daily healthcare and enhances quality of life worldwide.": "Thank you sincerely for visiting the Healthcare Research Center.",
         "건강의학연구센터에 대한 주요 질문과 답변": "Frequently Asked Questions about the Healthcare Research Center",
         "건강의학연구센터에 대한 주요 질문과 답변을 확인하실 수 있습니다.": "You can find answers to frequently asked questions about the Healthcare Research Center.",
         "건강의학연구센터의 연구와 활동 현장을 사진으로 만나보세요.": "Explore the research and activities of the Healthcare Research Center through photos.",

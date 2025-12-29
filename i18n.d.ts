@@ -187,8 +187,8 @@ export interface I18nStrings {
     dfeedbacknamespacecontactform7v1methodspostendpoin: string;
     dfeedbackschemanamespacecontactform7v1methodsgeten: string;
     dfontfacesnamespacewpv2methodsgetpostendpointsmeth: string;
-    diagnox: string;
-    diagnox_1: string;
+    Wellio: string;
+    Wellio_1: string;
     directions: string;
     directions_mwpdemo44061: string;
     dmeapplicationpasswordsintrospectnamespacewpv2meth: string;
