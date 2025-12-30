@@ -125,7 +125,7 @@ export interface I18nStrings {
   content_en: {
     1234_main_street_city: string;
     12500: string;
-    2022: string;
+    2023: string;
     2023: string;
     2024: string;
     2025: string;
