@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="navigation.contact">Contact</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: var(--spacing-3xl) var(--spacing-md);
+            text-align: center;
+        }
+
+        .contact-hero h1 {
+            font-size: var(--font-size-4xl);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .contact-content {
+            padding: var(--spacing-3xl) 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-2xl);
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .contact-info {
+            background: var(--color-bg-secondary);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+        }
+
+        .contact-info h2 {
+            font-size: var(--font-size-2xl);
+            margin-bottom: var(--spacing-lg);
+            color: var(--color-text-primary);
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .info-item i {
+            font-size: var(--font-size-xl);
+            color: var(--color-primary);
+            margin-top: 4px;
+        }
+
+        .info-item-content h3 {
+            font-size: var(--font-size-lg);
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-text-primary);
+        }
+
+        .info-item-content p {
+            color: var(--color-text-secondary);
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            background: white;
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-form h2 {
+            font-size: var(--font-size-2xl);
+            margin-bottom: var(--spacing-lg);
+            color: var(--color-text-primary);
+        }
+
+        .form-group {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+            color: var(--color-text-primary);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            font-size: var(--font-size-base);
+            transition: all var(--transition-fast);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(6, 147, 227, 0.1);
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .form-submit {
+            text-align: right;
+        }
+
+        .map-container {
+            height: 400px;
+            background: var(--color-bg-secondary);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-hero h1 {
+                font-size: var(--font-size-3xl);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="Logo" onerror="this.style.display='none'" data-i18n-alt="content_en.logo">
+                </a>
+            </div>
+            <nav id="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" data-i18n="navigation.home">Home</a></li>
+                    <li><a href="portfolio.html" data-i18n="navigation.portfolio">Portfolio</a></li>
+                    <li><a href="research.html" data-i18n="navigation.research">Research</a></li>
+                    <li><a href="faq.html" data-i18n="navigation.faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="navigation.contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </nav>
+            <div id="lang-switcher"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1 data-i18n="navigation.contact">Contact Us</h1>
+            <p data-i18n="content_en.contact_subtitle">Get in touch with us</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 data-i18n="content_en.contact_info">Contact Information</h2>
+
+                        <div class="info-item">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="info-item-content">
+                                <h3 data-i18n="contact.address_label">Address</h3>
+                                <p data-i18n="contact.address">123 Healthcare St, Medical City, MC 12345</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-phone"></i>
+                            <div class="info-item-content">
+                                <h3 data-i18n="contact.phone_label">Phone</h3>
+                                <p data-i18n="contact.phone">+82 2-1234-5678</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info-item-content">
+                                <h3 data-i18n="contact.email_label">Email</h3>
+                                <p data-i18n="contact.email">info@healthcare.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-clock-o"></i>
+                            <div class="info-item-content">
+                                <h3 data-i18n="content_en.business_hours">Business Hours</h3>
+                                <p data-i18n="content_en.hours_detail">Mon-Fri: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2 data-i18n="forms.send_message">Send us a Message</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="forms.name">Name</label>
+                                <input type="text" id="name" name="name" required data-i18n-placeholder="forms.your_name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" data-i18n="forms.email">Email</label>
+                                <input type="email" id="email" name="email" required data-i18n-placeholder="forms.your_email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" data-i18n="forms.subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required data-i18n-placeholder="forms.message_subject">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" data-i18n="forms.message">Message</label>
+                                <textarea id="message" name="message" required data-i18n-placeholder="forms.your_message"></textarea>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary" data-i18n="buttons.send">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <p><i class="fa fa-map-marker" style="font-size: 3rem;"></i><br>Map will be displayed here</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4 data-i18n="navigation.about">About</h4>
+                <ul>
+                    <li><a href="intro.html" data-i18n="navigation.intro">Introduction</a></li>
+                    <li><a href="history.html" data-i18n="navigation.history">History</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="navigation.contact">Contact</h4>
+                <ul>
+                    <li data-i18n="contact.address">Address</li>
+                    <li data-i18n="contact.phone">Phone</li>
+                    <li data-i18n="contact.email">Email</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> <span data-i18n="company.name">Healthcare</span>. <span data-i18n="content_en.rights">All rights reserved</span>.</p>
+        </div>
+    </footer>
+
+    <script src="../js/i18n-loader.js"></script>
+    <script src="../js/lang-switcher.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script>
+        // Handle form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+
+            // Here you would normally send the data to a server
+            console.log('Form submitted:', data);
+
+            // Show success message
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

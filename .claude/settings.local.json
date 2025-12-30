@@ -16,7 +16,12 @@
       "Bash(open:*)",
       "Bash(find:*)",
       "Bash(lsof:*)",
-      "Bash(./replace_search_with_lang_switcher.sh:*)"
+      "Bash(./replace_search_with_lang_switcher.sh:*)",
+      "Bash(git -C /Users/meditor/Projects/healthcare-web log --oneline)",
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(git -C /Users/meditor/Projects/healthcare-web remote:*)",
+      "Bash(tree:*)"
     ]
   }
 }
