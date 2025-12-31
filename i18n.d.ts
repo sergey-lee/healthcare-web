@@ -242,6 +242,16 @@ export interface I18nStrings {
     even_the_allpowerful_pointing_has_no_control: string;
     even_the_allpowerful_pointing_has_no_control_about: string;
     faq_mwpdemo44061: string;
+    faq_answer1: string;
+    faq_answer2: string;
+    faq_answer3: string;
+    faq_answer4: string;
+    faq_answer5: string;
+    faq_answer6: string;
+    faq_answer7: string;
+    faq_answer8: string;
+    faq_answer9: string;
+
     far_from_the_countries_vokalia_and_consonantia_the: string;
     far_from_the_countries_vokalia_and_consonantia_the_1: string;
     far_from_the_countries_vokalia_and_consonantia_the_2: string;

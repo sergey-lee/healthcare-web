@@ -102,7 +102,7 @@
 - "연구성과와 글로벌 협력 확대" - Research achievements and global cooperation expansion
 - "암 예방 및 치료법 개발" - Cancer prevention and treatment development
 - "신약 개발을 위한 바이오 데이터 연구" - Bio data research for new drug development
-- "전염병 연구" - Infectious disease research
+- "전염병 연구" - Health Data Analytics
 
 ### 💡 Технологии
 - "AI와 머신러닝을 활용" - Utilizing AI and machine learning

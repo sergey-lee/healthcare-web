@@ -16,7 +16,8 @@
       "Bash(open:*)",
       "Bash(find:*)",
       "Bash(lsof:*)",
-      "Bash(./replace_search_with_lang_switcher.sh:*)"
+      "Bash(./replace_search_with_lang_switcher.sh:*)",
+      "Bash(du:*)"
     ]
   }
 }

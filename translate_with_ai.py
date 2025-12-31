@@ -38,14 +38,14 @@ def translate_korean_to_english(text):
 
         "풍성한 한가위 되시길 바랍니다.": "Wishing you a prosperous Chuseok (Korean Thanksgiving).",
 
-        "필요한 자료가 없거나 추가 문의가 있으시면 언제든 저희에게 알려주세요.":
+        "필요한 자료가 없거나 추가 If you have any questions, please let us know at any time.":
             "If you need any additional materials or have further inquiries, please feel free to contact us anytime.",
 
         "건강의학연구센터 설립": "Healthcare Research Center Establishment",
-        "건강의학연구센터는 어떤 곳인가요?": "What is the Healthcare Research Center?",
+        "What is Wellio?": "What is the Healthcare Research Center?",
         "At Wellio, our mission is to empower people with precise and painless glucose monitoring. I am proud to guide our talented team toward innovation that transforms daily healthcare and enhances quality of life worldwide.": "Thank you sincerely for visiting the Healthcare Research Center.",
-        "건강의학연구센터에 대한 주요 질문과 답변": "Frequently Asked Questions about the Healthcare Research Center",
-        "건강의학연구센터에 대한 주요 질문과 답변을 확인하실 수 있습니다.": "You can find answers to frequently asked questions about the Healthcare Research Center.",
+        "Frequently Asked Questions about Wellio": "Frequently Asked Questions about the Healthcare Research Center",
+        "Frequently Asked Questions about Wellio": "You can find answers to frequently asked questions about the Healthcare Research Center.",
         "건강의학연구센터의 연구와 활동 현장을 사진으로 만나보세요.": "Explore the research and activities of the Healthcare Research Center through photos.",
         "건강의학연구센터의 최신 뉴스, 연구 발표, 보도자료를 확인하세요.": "Check out the latest news, research announcements, and press releases from the Healthcare Research Center.",
 
