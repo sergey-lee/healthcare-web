@@ -25,7 +25,7 @@ def translate_korean_to_english(text):
     # Dictionary of comprehensive translations
     translations = {
         # Full sentences and phrases
-        "건강의학연구센터는 국내외 유수의 연구기관, 공공기관, 그리고 산업체와의 협력을 통해 미래지향적인 연구와 기술 개발을 선도하고 있습니다. 각 분야에서 인정받은 파트너와의 긴밀한 네트워크를 통해, 질병 예방과 치료를 위한 실질적인 솔루션을 만들어갑니다.":
+        "Wellio leads the way in advanced glucose monitoring by combining cutting-edge technology with smart data analysis. Through collaboration with health experts and research partners, we provide practical solutions for managing blood glucose and supporting a healthier life":
             "The Healthcare Research Center leads future-oriented research and technology development through collaboration with leading domestic and international research institutes, public institutions, and industries. Through close networks with recognized partners in each field, we create practical solutions for disease prevention and treatment.",
 
         "출시 기념으로 한정 기간 동안 특별 할인 이벤트를 진행하오니 많은 관심과 참여 부탁드립니다.":

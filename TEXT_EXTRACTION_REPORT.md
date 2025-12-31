@@ -126,7 +126,7 @@ export interface I18nStrings {
 - 내용 (Message), 문의유형 (Inquiry type)
 
 ### Контактная информация
-- +1-234-567-8900
+- +886-3-535-5949
 - 서울특별시 강남구 테헤란로 123, ABC 빌딩 10층
 - info@companyname.com
 

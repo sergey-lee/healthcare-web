@@ -31,8 +31,8 @@
 ### 📞 Contact (99 строк)
 Контактная информация, адреса, коммуникации
 - Адреса: 서울특별시 강남구 테헤란로 123, ABC 빌딩 10층
-- Телефоны: +1-234-567-8900
-- Email: info@companyname.com, inquiry@domain.com
+- Телефоны: +886-3-535-5949
+- Email: info@companyname.com, info@innomax.com
 - Локации: 본사 (Headquarters), 경기도 연구소, 부산 연구소
 
 ### 📅 Dates (7 строк)
