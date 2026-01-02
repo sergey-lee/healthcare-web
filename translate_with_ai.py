@@ -46,7 +46,7 @@ def translate_korean_to_english(text):
         "At Wellio, our mission is to empower people with precise and painless glucose monitoring. I am proud to guide our talented team toward innovation that transforms daily healthcare and enhances quality of life worldwide.": "Thank you sincerely for visiting the Healthcare Research Center.",
         "Frequently Asked Questions about Wellio": "Frequently Asked Questions about the Healthcare Research Center",
         "Frequently Asked Questions about Wellio": "You can find answers to frequently asked questions about the Healthcare Research Center.",
-        "건강의학연구센터의 연구와 활동 현장을 사진으로 만나보세요.": "Explore the research and activities of the Healthcare Research Center through photos.",
+        "Explore the research and activities of the Health and Medical Research Center through photos.": "Explore the research and activities of the Healthcare Research Center through photos.",
         "건강의학연구센터의 최신 뉴스, 연구 발표, 보도자료를 확인하세요.": "Check out the latest news, research announcements, and press releases from the Healthcare Research Center.",
 
         "경기도 연구소": "Gyeonggi Province Research Institute",
