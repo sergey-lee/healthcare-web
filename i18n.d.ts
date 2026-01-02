@@ -121,6 +121,16 @@ export interface I18nStrings {
     클라우드_환경을_활용한_데이터_관리_및_처리로_유연하고_확장_가능한_시스템을_제공합니다_사: string;
     풍성한_한가위_되시길_바랍니다: string;
     필요한_자료가_없거나_추가_문의가_있으시면_언제든_저희에게_알려주세요: string;
+          history_2025_1_title: string;
+          history_2025_2_description_1: string;
+          history_2025_2_description_2: string;
+          history_2025_2_description_3: string;
+          history_2025_2_description_4: string;
+          history_2025_2_title: string;
+          history_2025_2_description_1: string;
+          history_2025_2_description_2: string;
+          history_2025_2_description_3: string;
+          history_2025_2_description_4: string;
   };
   content_en: {
     1234_main_street_city: string;
