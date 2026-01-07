@@ -328,10 +328,10 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <div class="row">
 
 <!-- Product Showcase Section -->
-<div class="wpb_row vc_row-fluid vc_row top-level full-width-section" data-column-margin="default" data-midnight="light" id="product-showcase-section" style="padding-top: 60px; padding-bottom: 60px; background-color: #ffffff;">
+<div class="wpb_row vc_row-fluid vc_row top-level full-width-section" data-column-margin="default" data-midnight="light" id="product-showcase-section" style="padding-top: 80px; padding-bottom: 80px; background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);">
 <div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false">
 <div class="inner-wrap row-bg-layer">
-<div class="row-bg viewport-desktop" style="background-color: #ffffff;"></div>
+<div class="row-bg viewport-desktop" style="background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);"></div>
 </div>
 </div>
 <div class="row_col_wrap_12 col span_12 light left">
@@ -341,62 +341,64 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <div class="product-showcase-wrap" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
 <div class="product-showcase-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
 <!-- Product Image Gallery -->
-<div class="product-showcase-gallery">
-<div class="product-gallery-container">
+<div class="product-showcase-gallery product-image-animate" data-animate="true">
+<div class="product-gallery-container" style="position: relative; background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); transition: all 0.4s ease;">
 <!-- Main Image -->
-<div class="product-main-image">
-<img id="main-product-image" src="wp-content/uploads/wellio-product-kit-1.jpg" alt="Wellio Complete Kit" style="width: 100%; height: auto; border-radius: 8px;"/>
+<div class="product-main-image" style="position: relative; overflow: hidden; border-radius: 12px; background: #f8f9fa;">
+<img id="main-product-image" src="wp-content/uploads/wellio-product-kit-1.jpg" alt="Wellio Complete Kit" style="width: 100%; height: auto; border-radius: 12px; transition: transform 0.6s ease;"/>
+<div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(41,173,178,0.1) 0%, transparent 100%); opacity: 0; transition: opacity 0.4s ease; pointer-events: none;"></div>
 </div>
 <!-- Thumbnail Navigation -->
-<div class="product-thumbnails" style="display: flex; gap: 10px; margin-top: 15px;">
-<div class="thumbnail-item active" onclick="changeProductImage(0)" style="width: 60px; height: 60px; cursor: pointer; border-radius: 4px; overflow: hidden; border: 2px solid #29adb2;">
+<div class="product-thumbnails" style="display: flex; gap: 12px; margin-top: 20px; justify-content: center;">
+<div class="thumbnail-item active" onclick="changeProductImage(0)" style="width: 70px; height: 70px; cursor: pointer; border-radius: 8px; overflow: hidden; border: 3px solid #29adb2; box-shadow: 0 4px 12px rgba(41,173,178,0.3); position: relative; transition: all 0.3s ease;">
 <img src="wp-content/uploads/wellio-product-kit-1.jpg" alt="Product view 1" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
-<div class="thumbnail-item" onclick="changeProductImage(1)" style="width: 60px; height: 60px; cursor: pointer; border-radius: 4px; overflow: hidden; border: 2px solid #e0e0e0;">
+<div class="thumbnail-item" onclick="changeProductImage(1)" style="width: 70px; height: 70px; cursor: pointer; border-radius: 8px; overflow: hidden; border: 3px solid #e0e0e0; position: relative; transition: all 0.3s ease;">
 <img src="wp-content/uploads/wellio-product-kit-2.jpg" alt="Product view 2" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
-<div class="thumbnail-item" onclick="changeProductImage(2)" style="width: 60px; height: 60px; cursor: pointer; border-radius: 4px; overflow: hidden; border: 2px solid #e0e0e0;">
+<div class="thumbnail-item" onclick="changeProductImage(2)" style="width: 70px; height: 70px; cursor: pointer; border-radius: 8px; overflow: hidden; border: 3px solid #e0e0e0; position: relative; transition: all 0.3s ease;">
 <img src="wp-content/uploads/wellio-product-kit-3.jpg" alt="Product view 3" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
-<!-- <div class="thumbnail-item" onclick="changeProductImage(3)" style="width: 60px; height: 60px; cursor: pointer; border-radius: 4px; overflow: hidden; border: 2px solid #e0e0e0;">
+<!-- <div class="thumbnail-item" onclick="changeProductImage(3)" style="width: 70px; height: 70px; cursor: pointer; border-radius: 8px; overflow: hidden; border: 3px solid #e0e0e0; position: relative; transition: all 0.3s ease;">
 <img src="wp-content/uploads/wellio-product-kit-4.jpg" alt="Product view 4" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div> -->
 </div>
 </div>
 </div>
 <!-- Product Details -->
-<div class="product-showcase-details">
-<h2 class="product-title fw-700" data-i18n="product.wellio_complete_kit" style="font-size: 38px; margin-bottom: 24px; color: #0a0a0a; line-height: 1.2;">Wellio Complete Kit</h2>
-<div class="product-price" style="margin-bottom: 28px;">
+<div class="product-showcase-details product-details-animate" data-animate="true">
+<h2 class="product-title fw-700 product-animate-item" data-i18n="product.wellio_complete_kit" style="font-size: 38px; margin-bottom: 24px; color: #0a0a0a; line-height: 1.2; opacity: 0; transform: translateY(20px);">Wellio Complete Kit</h2>
+<div class="product-price product-animate-item" style="margin-bottom: 28px; opacity: 0; transform: translateY(20px);">
 <span class="original-price" style="font-size: 22px; color: #999; text-decoration: line-through; margin-right: 14px;">$1,199.00</span>
 <span class="sale-price fw-700" style="font-size: 34px; color: #29adb2;">$999.00</span>
 <span class="tax-notice" data-i18n="product.tax_included" style="font-size: 16px; color: #777; margin-left: 10px;">tax included</span>
 </div>
-<div class="product-cta" style="margin-bottom: 36px;">
-<a href="#" class="nectar-button large regular accent-color regular-button" data-i18n="product.add_to_cart" style="background-color: #29adb2; color: #fff; padding: 18px 48px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px; transition: all 0.3s;">
-<span data-i18n="product.add_to_cart">Add to Cart</span>
+<div class="product-cta product-animate-item" style="margin-bottom: 36px; opacity: 0; transform: translateY(20px);">
+<a href="#" class="nectar-button large regular accent-color regular-button product-add-btn" data-i18n="product.add_to_cart" style="background-color: #29adb2; color: #fff; padding: 18px 48px; border-radius: 8px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px; transition: all 0.4s ease; box-shadow: 0 4px 16px rgba(41,173,178,0.3); position: relative; overflow: hidden;">
+<span data-i18n="product.add_to_cart" style="position: relative; z-index: 2;">Add to Cart</span>
+<span class="btn-shine" style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.6s ease;"></span>
 </a>
 </div>
 <div class="product-features">
 <ul style="list-style: none; padding: 0; margin: 0;">
-<li class="feature-item" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444;">
-<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700;">✓</span>
+<li class="feature-item product-feature-animate" data-delay="0" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444; opacity: 0; transform: translateX(-20px);">
+<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(41,173,178,0.1); border-radius: 50%; transition: all 0.3s ease;">✓</span>
 <span data-i18n="product.wellio_monitoring_device">Wellio monitoring device</span>
 </li>
-<li class="feature-item" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444;">
-<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700;">✓</span>
+<li class="feature-item product-feature-animate" data-delay="100" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444; opacity: 0; transform: translateX(-20px);">
+<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(41,173,178,0.1); border-radius: 50%; transition: all 0.3s ease;">✓</span>
 <span data-i18n="product.premium_mobile_app">Premium mobile app (1 year)</span>
 </li>
-<li class="feature-item" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444;">
-<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700;">✓</span>
+<li class="feature-item product-feature-animate" data-delay="200" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444; opacity: 0; transform: translateX(-20px);">
+<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(41,173,178,0.1); border-radius: 50%; transition: all 0.3s ease;">✓</span>
 <span data-i18n="product.customer_support">24/7 customer support</span>
 </li>
-<li class="feature-item" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444;">
-<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700;">✓</span>
+<li class="feature-item product-feature-animate" data-delay="300" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444; opacity: 0; transform: translateX(-20px);">
+<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(41,173,178,0.1); border-radius: 50%; transition: all 0.3s ease;">✓</span>
 <span data-i18n="product.warranty">1-year warranty</span>
 </li>
-<li class="feature-item" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444;">
-<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700;">✓</span>
+<li class="feature-item product-feature-animate" data-delay="400" style="display: flex; align-items: center; margin-bottom: 18px; font-size: 18px; color: #444; opacity: 0; transform: translateX(-20px);">
+<span class="checkmark" style="color: #29adb2; margin-right: 14px; font-size: 24px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(41,173,178,0.1); border-radius: 50%; transition: all 0.3s ease;">✓</span>
 <span data-i18n="product.free_shipping">Free shipping worldwide</span>
 </li>
 </ul>
@@ -412,12 +414,60 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 
 <style>
 /* Product Showcase Styles */
+.product-gallery-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(0,0,0,0.12) !important;
+}
+
+.product-main-image:hover img {
+  transform: scale(1.05);
+}
+
+.product-main-image:hover .image-overlay {
+  opacity: 1 !important;
+}
+
 .thumbnail-item {
   transition: all 0.3s ease;
 }
 
 .thumbnail-item:hover {
-  opacity: 0.8;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 16px rgba(41,173,178,0.4) !important;
+}
+
+.product-add-btn:hover .btn-shine {
+  left: 100% !important;
+}
+
+.product-add-btn:hover {
+  background-color: #238a8e !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(41, 173, 178, 0.4) !important;
+}
+
+.feature-item:hover .checkmark {
+  background: rgba(41,173,178,0.2) !important;
+  transform: scale(1.1);
+}
+
+/* Animation Classes */
+.product-animate-item {
+  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.product-feature-animate {
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.animate-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.animate-slide-in {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
 }
 
 @media only screen and (max-width: 999px) {
@@ -437,12 +487,15 @@ body .sharing-default-minimal .nectar-social .nectar-love,
   .feature-item {
     font-size: 17px !important;
   }
+  .product-gallery-container {
+    padding: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 690px) {
   #product-showcase-section {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
   .product-title {
     font-size: 24px !important;
@@ -471,12 +524,13 @@ body .sharing-default-minimal .nectar-social .nectar-love,
     text-align: left;
     font-size: 16px !important;
   }
-}
-
-.nectar-button:hover {
-  background-color: #238a8e !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(41, 173, 178, 0.3);
+  .product-gallery-container {
+    padding: 15px !important;
+  }
+  .thumbnail-item {
+    width: 60px !important;
+    height: 60px !important;
+  }
 }
 </style>
 
@@ -489,23 +543,70 @@ const productImages = [
 ];
 
 function changeProductImage(index) {
-  // Update main image
   const mainImage = document.getElementById('main-product-image');
   if (mainImage) {
-    mainImage.src = productImages[index];
+    mainImage.style.opacity = '0.5';
+    mainImage.style.transition = 'opacity 0.3s ease';
+
+    setTimeout(() => {
+      mainImage.src = productImages[index];
+      mainImage.style.opacity = '1';
+    }, 200);
   }
 
-  // Update thumbnail borders
+  // Update thumbnail borders with animation
   const thumbnails = document.querySelectorAll('.thumbnail-item');
   thumbnails.forEach((thumb, i) => {
     if (i === index) {
-      thumb.style.border = '2px solid #29adb2';
+      thumb.style.border = '3px solid #29adb2';
+      thumb.style.boxShadow = '0 4px 12px rgba(41,173,178,0.3)';
       thumb.classList.add('active');
     } else {
-      thumb.style.border = '2px solid #e0e0e0';
+      thumb.style.border = '3px solid #e0e0e0';
+      thumb.style.boxShadow = 'none';
       thumb.classList.remove('active');
     }
   });
+}
+
+// Scroll animation
+function initProductAnimations() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Animate title, price, button
+        const animateItems = entry.target.querySelectorAll('.product-animate-item');
+        animateItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.add('animate-in');
+          }, index * 150);
+        });
+
+        // Animate features
+        const features = entry.target.querySelectorAll('.product-feature-animate');
+        features.forEach((feature, index) => {
+          const delay = parseInt(feature.dataset.delay) || 0;
+          setTimeout(() => {
+            feature.classList.add('animate-slide-in');
+          }, 600 + delay);
+        });
+
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  const productSection = document.querySelector('.product-details-animate');
+  if (productSection) {
+    observer.observe(productSection);
+  }
+}
+
+// Initialize on load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initProductAnimations);
+} else {
+  initProductAnimations();
 }
 </script>
 
