@@ -235,7 +235,7 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <div class="row">
 <div class="col span_3">
 <a data-supplied-ml="false" data-supplied-ml-starting="false" data-supplied-ml-starting-dark="false" href="../index.html" id="logo">
-<img alt="mwpdemo44061" class="stnd skip-lazy default-logo dark-version" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/Wellio-text-logo-light.png" srcset="../wp-content/uploads/Wellio-text-logo-light.png 1x, ../wp-content/uploads/Wellio-text-logo-light.png 2x" width="550"/> </a>
+<img alt="mwpdemo44061" class="stnd skip-lazy default-logo dark-version" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/wellio-text-logo-light.png" srcset="../wp-content/uploads/wellio-text-logo-light.png 1x, ../wp-content/uploads/wellio-text-logo-light.png 2x" width="550"/> </a>
 </div><!--/span_3-->
 <div class="col span_9 col_last">
 <div class="nectar-mobile-only mobile-header"><div class="inner"></div></div>
@@ -283,7 +283,7 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <li id="search-btn"><div><a href="../index.html%3Fp=6804.html#searchbox"><span aria-hidden="true" class="icon-salient-search"></span><span class="screen-reader-text" data-i18n="content_en.search_2">search</span></a></div> </li>
 </ul>
 </nav>
-<div class="logo-spacing" data-using-image="true"><img alt="mwpdemo44061" class="hidden-logo" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/Wellio-text-logo-light.png" width="550"/></div>
+<div class="logo-spacing" data-using-image="true"><img alt="mwpdemo44061" class="hidden-logo" data-i18n-alt="content_en.mwpdemo44061" height="150" src="../wp-content/uploads/wellio-text-logo-light.png" width="550"/></div>
 </div><!--/span_9-->
 </div><!--/row-->
 <div data-mobile-fixed="1" id="mobile-menu">
