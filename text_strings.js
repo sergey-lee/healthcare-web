@@ -149,7 +149,7 @@ export const TEXT_STRINGS = {
   "_74": "신제품 출시 및 사전 예약 이벤트 안내",
   "_75": "We implement functions through actual product development and complete the system by applying advanced technologies.",
   "_76": "아이디어 구상 및 요구 사항 분석",
-  "_77": "안녕하세요, 고객 여러분.",
+  "_77": "Hello, valued customers.",
   "_78": "",
   "_79": "암 연구",
   "_8": "건강 관리와 관련된 상담은 가능한가요?",
