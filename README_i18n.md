@@ -296,7 +296,7 @@ strings.navigation = {
 strings.buttons = {
   search: "검색",
   submit_inquiry: "문의하기",
-  view_list: "목록보기",
+  view_list: "View list",
   see_more: "See more",
   // ...
 }

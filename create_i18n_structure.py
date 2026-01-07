@@ -44,7 +44,7 @@ def categorize_string(text):
 
     # Buttons/Actions
     if text in ['Submit', 'Send', 'Download', 'Search', 'View', 'More', 'See more', 'More Details',
-                'Play Video', 'Share', 'Pin', 'Love', '검색', '문의하기', '목록보기']:
+                'Play Video', 'Share', 'Pin', 'Love', '검색', '문의하기', 'View list']:
         return 'buttons'
 
     # Korean content
@@ -114,7 +114,7 @@ def create_semantic_key(text, category):
         '전화번호': 'phone',
         '내용': 'message',
         '문의하기': 'submit_inquiry',
-        '목록보기': 'view_list',
+        'View list': 'view_list',
     }
 
     if text in korean_mapping:

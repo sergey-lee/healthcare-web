@@ -118,7 +118,7 @@ export interface I18nStrings {
 ### Кнопки
 - 검색 (Search)
 - 문의하기 (Submit inquiry)
-- 목록보기 (View list)
+- View list (View list)
 - See more, More Details, Play Video
 
 ### Формы

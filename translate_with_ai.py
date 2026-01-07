@@ -47,7 +47,7 @@ def translate_korean_to_english(text):
         "Frequently Asked Questions about Wellio": "Frequently Asked Questions about the Healthcare Research Center",
         "Frequently Asked Questions about Wellio": "You can find answers to frequently asked questions about the Healthcare Research Center.",
         "Explore the research and activities of the Health and Medical Research Center through photos.": "Explore the research and activities of the Healthcare Research Center through photos.",
-        "건강의학연구센터의 최신 뉴스, 연구 발표, 보도자료를 확인하세요.": "Check out the latest news, research announcements, and press releases from the Healthcare Research Center.",
+        "Check out the latest news, research announcements, and press releases from the Center for Health and Medical Research.": "Check out the latest news, research announcements, and press releases from the Healthcare Research Center.",
 
         "경기도 연구소": "Gyeonggi Province Research Institute",
         "고객 만족도 향상을 위한 설문 조사 참여 요청 및 경품 안내": "Request to participate in customer satisfaction survey and prize information",
@@ -70,7 +70,7 @@ def translate_korean_to_english(text):
         # Actions
         "문의하기": "Submit Inquiry",
         "검색": "Search",
-        "목록보기": "View List",
+        "View list": "View List",
         "더보기": "See More",
         "보기": "View",
         "다운로드": "Download",

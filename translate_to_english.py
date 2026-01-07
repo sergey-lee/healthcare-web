@@ -91,7 +91,7 @@ TRANSLATIONS = {
     "문의하기": "Submit Inquiry",
     "검색": "Search",
     "보기": "View",
-    "목록보기": "View List",
+    "View list": "View List",
     "더보기": "See More",
     "다운로드": "Download",
     "제출": "Submit",

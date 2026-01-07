@@ -20,7 +20,7 @@
 Кнопки и элементы действий
 - 검색 (Search)
 - 문의하기 (Submit inquiry)
-- 목록보기 (View list)
+- View list (View list)
 - Love, Pin, Share, See more, More Details, Play Video
 
 ### 📝 Forms (8 строк)
