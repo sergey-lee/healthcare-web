@@ -374,7 +374,7 @@ body .sharing-default-minimal .nectar-social .nectar-love,
 <span class="tax-notice" data-i18n="product.tax_included" style="font-size: 16px; color: #777; margin-left: 10px;">tax included</span>
 </div>
 <div class="product-cta product-animate-item" style="margin-bottom: 36px; opacity: 0; transform: translateY(20px);">
-<a href="#" class="nectar-button large regular accent-color regular-button product-add-btn" data-i18n="product.add_to_cart" style="background-color: #29adb2; color: #fff; padding: 18px 48px; border-radius: 8px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px; transition: all 0.4s ease; box-shadow: 0 4px 16px rgba(41,173,178,0.3); position: relative; overflow: hidden;">
+<a href="#" onclick="openPopup(); return false;" class="nectar-button large regular accent-color regular-button product-add-btn" data-i18n="product.add_to_cart" style="background-color: #29adb2; color: #fff; padding: 18px 48px; border-radius: 8px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 18px; transition: all 0.4s ease; box-shadow: 0 4px 16px rgba(41,173,178,0.3); position: relative; overflow: hidden;">
 <span data-i18n="product.add_to_cart" style="position: relative; z-index: 2;">Add to Cart</span>
 <span class="btn-shine" style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.6s ease;"></span>
 </a>
@@ -820,6 +820,203 @@ var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","clos
 <script id="touchswipe-js" src="wp-content/plugins/salient-core/js/third-party/touchswipe.min.js%3Fver=1.0" type="text/javascript"></script>
 <script id="select2-js" src="wp-content/themes/salient/js/build/third-party/select2.min.js%3Fver=4.0.1" type="text/javascript"></script>
 <script id="wpb_composer_front_js-js" src="wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js%3Fver=8.4.1" type="text/javascript"></script>
+
+<!-- Email Modal -->
+<style>
+.email-input-modal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.email-modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group-text {
+  background-color: #29adb2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px 0 0 8px;
+  font-weight: 600;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 0 8px 8px 0;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #29adb2;
+  box-shadow: 0 0 0 3px rgba(41, 173, 178, 0.1);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-primary {
+  background-color: #29adb2;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #238a8e;
+}
+</style>
+
+<div class="email-input-modal" id="emailInputModal">
+  <div class="email-modal-content">
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping">Email</span>
+      <input type="email" name="email" id="buyerEmail" class="form-control" placeholder="your@email.com" aria-label="Email" aria-describedby="addon-wrapping" />
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" onclick="closePopup()">Cancel</button>
+      <button type="button" class="btn btn-primary" id="saveEmailBtn">Pre-order</button>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap Bundle (если еще нет) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Popup Functions -->
+<script>
+  const emailModal = document.getElementById("emailInputModal");
+  const buyerEmail = document.getElementById("buyerEmail");
+
+  function openPopup() {
+    emailModal.style.display = "flex";
+    buyerEmail.focus();
+  }
+
+  function closePopup() {
+    buyerEmail.value = "";
+    emailModal.style.display = "none";
+  }
+
+  // Close modal when clicking outside
+  emailModal.addEventListener('click', function(e) {
+    if (e.target === emailModal) {
+      closePopup();
+    }
+  });
+</script>
+
+<!-- Firebase Integration -->
+<script type="module">
+  // Import Firebase functions
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getFirestore, collection, addDoc, query, where, getDocs } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyATnF_m9h3VWabnfEqu2KY5g8lszBqcogo",
+    authDomain: "diagnox-web.firebaseapp.com",
+    projectId: "diagnox-web",
+    storageBucket: "diagnox-web.firebasestorage.app",
+    messagingSenderId: "1014420872794",
+    appId: "1:1014420872794:web:fb781219a491a1e7114263",
+    measurementId: "G-F42KFG9JG6",
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Функция для проверки уникальности email
+  async function isEmailUnique(email) {
+    try {
+      const q = query(collection(db, "newsletter_emails"), where("email", "==", email));
+      const querySnapshot = await getDocs(q);
+      return querySnapshot.empty;
+    } catch (error) {
+      console.error("Error checking email uniqueness:", error);
+      throw error;
+    }
+  }
+
+  // Функция для сохранения email
+  async function saveEmail(email) {
+    try {
+      const docRef = await addDoc(collection(db, "newsletter_emails"), {
+        email: email,
+        timestamp: new Date(),
+        source: "DiagnoX Newsletter",
+        status: "subscribed",
+      });
+      return { success: true, id: docRef.id };
+    } catch (error) {
+      console.error("Error saving email:", error);
+      return { success: false, error: error.message };
+    }
+  }
+
+  // Обработка кнопки сохранения email
+  const saveEmailBtn = document.getElementById("saveEmailBtn");
+  const emailModalElement = document.getElementById("emailInputModal");
+
+  saveEmailBtn.addEventListener("click", async () => {
+    const buyerEmailInput = document.getElementById("buyerEmail");
+    const email = buyerEmailInput.value.trim();
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    const { success } = await saveEmail(email);
+    if (success) {
+      alert("We will contact you soon by email!");
+    }
+
+    buyerEmailInput.value = "";
+    emailModalElement.style.display = "none";
+  });
+</script>
+
 <script></script><script src="/i18n-loader.js" defer></script></body>
 </html>
 <!-- Dynamic page generated in 0.386 seconds. -->
