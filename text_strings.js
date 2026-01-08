@@ -322,7 +322,7 @@ export const TEXT_STRINGS = {
   "info_domain_com": "info@domain.com",
   "inquiry": "INQUIRY",
   "inquiry_1": "Inquiry",
-  "inquiry_domain_com": "info@innomax.com",
+  "inquiry_domain_com": "alex_oh@innomax.biz",
   "inquiry_mwpdemo44061": "Inquiry – mwpdemo44061",
   "instagram": "Instagram",
   "integer_convallis_odio_ut_rutrum_euismod_mi_purus": "Integer convallis, odio ut rutrum euismod, mi purus pulvinar justo, quis mollis metus metus vitae nibh. Proin eget tincidunt arcu. Donec ante mi, elementum non adipiscing vitae, pharetra quis mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eget nibh non odio iaculis posuere. Sed ante tortor, pharetra vitae iaculis id, sodales ac tellus. Ut viverra, nulla et adipiscing condimentum, libero nisi condimentum tellus, vel pharetra neque ligula sit amet mi. Sed rutrum consectetur purus ac tincidunt.",

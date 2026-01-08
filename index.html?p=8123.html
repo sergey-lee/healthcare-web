@@ -951,26 +951,19 @@ var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","clos
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
   import { getFirestore, collection, addDoc, query, where, getDocs } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-  // Fetch Firebase config from API endpoint (environment variables)
+  // Fetch Firebase config from API (stored in Vercel environment variables)
   async function getFirebaseConfig() {
     try {
       const response = await fetch('/api/firebase-config');
       if (!response.ok) {
-        throw new Error('Failed to fetch Firebase config');
+        throw new Error(`Failed to fetch Firebase config: ${response.status}`);
       }
-      return await response.json();
+      const config = await response.json();
+      console.log('[Firebase] Config loaded from Vercel environment variables');
+      return config;
     } catch (error) {
-      console.error('Error fetching Firebase config:', error);
-      // Fallback to hardcoded config for local development
-      return {
-        apiKey: "AIzaSyATnF_m9h3VWabnfEqu2KY5g8lszBqcogo",
-        authDomain: "diagnox-web.firebaseapp.com",
-        projectId: "diagnox-web",
-        storageBucket: "diagnox-web.firebasestorage.app",
-        messagingSenderId: "1014420872794",
-        appId: "1:1014420872794:web:fb781219a491a1e7114263",
-        measurementId: "G-F42KFG9JG6",
-      };
+      console.error('[Firebase] Failed to load config:', error.message);
+      throw new Error('Unable to load Firebase configuration. Please try again later.');
     }
   }
 

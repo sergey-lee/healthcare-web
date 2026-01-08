@@ -32,7 +32,7 @@
 Контактная информация, адреса, коммуникации
 - Адреса: 서울특별시 강남구 테헤란로 123, ABC 빌딩 10층
 - Телефоны: +886-3-535-5949
-- Email: info@companyname.com, info@innomax.com
+- Email: info@companyname.com, alex_oh@innomax.biz
 - Локации: 본사 (Headquarters), 경기도 연구소, 부산 연구소
 
 ### 📅 Dates (7 строк)
