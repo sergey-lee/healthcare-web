@@ -284,7 +284,7 @@ export const TEXT_STRINGS = {
   "development_of_an_ai_based": "Development of an AI-based",
   "development_of_an_ai_based_personalized_healthcare": "Development of a Clinical Test–Based Algorithm",
   "development_of_an_ai_based_personalized_healthcare_1": "Development of a Clinical Test–Based Algorithm – mwpdemo44061",
-  "Wellio": "\bWellio",
+  "Wellio": "Wellio",
   "Wellio_1": "Innomax",
   "directions": "Directions",
   "directions_mwpdemo44061": "Directions – mwpdemo44061",
