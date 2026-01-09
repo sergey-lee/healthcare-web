@@ -968,12 +968,39 @@ var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","clos
   }
 
   // Initialize Firebase with config from API
-  let db;
-  (async () => {
-    const firebaseConfig = await getFirebaseConfig();
-    const app = initializeApp(firebaseConfig);
-    db = getFirestore(app);
-  })();
+  let app, db;
+  let isInitialized = false;
+  let initPromise = null;
+
+  async function initFirebase() {
+    if (isInitialized) {
+      return { app, db };
+    }
+
+    if (initPromise) {
+      return initPromise;
+    }
+
+    initPromise = (async () => {
+      try {
+        console.log('[Firebase] Initializing...');
+        const firebaseConfig = await getFirebaseConfig();
+        app = initializeApp(firebaseConfig);
+        db = getFirestore(app);
+        isInitialized = true;
+        console.log('[Firebase] Initialized successfully');
+        return { app, db };
+      } catch (error) {
+        console.error('[Firebase] Initialization failed:', error);
+        throw error;
+      }
+    })();
+
+    return initPromise;
+  }
+
+  // Start initialization immediately
+  initFirebase();
 
   // Функция для проверки уникальности email
   async function isEmailUnique(email) {
@@ -1017,10 +1044,14 @@ var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","clos
       return;
     }
 
-    // Wait for db to be initialized
-    if (!db) {
-      alert("Firebase is still initializing. Please try again in a moment.");
-      return;
+    // Wait for Firebase to initialize if needed
+    if (!isInitialized) {
+      try {
+        await initFirebase();
+      } catch (error) {
+        alert("Unable to connect to server. Please try again later.");
+        return;
+      }
     }
 
     const { success } = await saveEmail(email);
